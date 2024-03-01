@@ -3,10 +3,10 @@
 // (powered by FernFlower decompiler)
 //
 
- class Lab1 {
+ class Lab1PA {
 
     public static void main(String[] var0) {
-        Lab1 var1 = new Lab1();
+        Lab1PA var1 = new Lab1PA();
         int var2 = Integer.parseInt(var0[0]);
         int var3 = Integer.parseInt(var0[1]);
         int var4 = Integer.parseInt(var0[2]);
@@ -66,8 +66,6 @@
         long end =  System.currentTimeMillis();
         long duration= end-start;
         System.out.println("Intervalul de numere este: " + String.valueOf(var4));
-        System.out.println("la inceput " + start);
-        System.out.println("la final " + end);
         System.out.println("Timpul de executie în milisecunde: " + duration);
     }
 
