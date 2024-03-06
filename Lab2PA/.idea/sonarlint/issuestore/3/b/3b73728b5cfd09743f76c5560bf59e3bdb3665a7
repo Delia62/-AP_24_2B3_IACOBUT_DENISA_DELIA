@@ -1,0 +1,6 @@
+
+m
+java:S12067"PThis class overrides "equals()" and should therefore also override "hashCode()".(Н▄╤у8в▀с·р1
+o	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(є№уб■    8д▀с·р1
+k
+java:S42018"IRemove this unnecessary null check; "instanceof" returns false for nulls.(Л╘ьє·    8е▀с·р1

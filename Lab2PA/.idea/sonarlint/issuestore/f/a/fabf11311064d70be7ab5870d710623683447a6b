@@ -1,0 +1,5 @@
+
+m
+java:S1206 "PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8™¦úà1
+f
+java:S4201!"IRemove this unnecessary null check; "instanceof" returns false for nulls.(ÊşÑ”8’™¦úà1
