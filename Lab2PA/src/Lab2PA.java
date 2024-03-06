@@ -36,26 +36,6 @@ public class Lab2PA { //Iacobut Denisa-Delia
 }
 
 
-class Problem{
-    private Depot[] depots;
-    private Client[] clients;
 
-}
-class Tour{
-    private Vehicle vehicle;
-    private Client[] clients;
 
-}
-class Drone extends Vehicle{
 
-    public Drone(String name) {
-        super(name);
-    }
-}
-class Truck extends Vehicle{
-
-    public Truck(String name) {
-        super(name);
-        
-    }
-}

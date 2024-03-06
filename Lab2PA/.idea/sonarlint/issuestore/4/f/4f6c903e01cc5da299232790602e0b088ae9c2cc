@@ -1,16 +1,8 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(®ßĞ 8¤®ğûà1
-F	java:S106"+Replace this use of System.out by a logger.(Æˆ—8¥®ğûà1
-L	java:S106"+Replace this use of System.out by a logger.(ÄàÂøÿÿÿÿ8¥®ğûà1
-L	java:S106!"+Replace this use of System.out by a logger.(€ãÔøÿÿÿÿ8¦®ğûà1
-G	java:S106""+Replace this use of System.out by a logger.( ÿª‡8¦®ğûà1
+G	java:S106"+Replace this use of System.out by a logger.(®ßĞ 8“şô˜á1
+F	java:S106"+Replace this use of System.out by a logger.(Æˆ—8”şô˜á1
+L	java:S106"+Replace this use of System.out by a logger.(ÄàÂøÿÿÿÿ8”şô˜á1
+L	java:S106!"+Replace this use of System.out by a logger.(€ãÔøÿÿÿÿ8•şô˜á1
+G	java:S106""+Replace this use of System.out by a logger.( ÿª‡8•şô˜á1
 O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8”«——á1
-L
-java:S1068("*Remove this unused "depots" private field.(ÒŒ¥Ùúÿÿÿÿ8§®ğûà1
-H
-java:S1068)"+Remove this unused "clients" private field.(ŒÕÊÎ8§®ğûà1
-H
-java:S1068-"+Remove this unused "vehicle" private field.(¯·¹³8§®ğûà1
-H
-java:S1068."+Remove this unused "clients" private field.(ŒÕÊÎ8§®ğûà1
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8•şô˜á1

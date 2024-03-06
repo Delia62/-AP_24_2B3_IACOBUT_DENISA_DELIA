@@ -1,19 +1,23 @@
 
-D
-java:S5411Q"(Use a primitive boolean expression here.(üå®18È’²˜á1
+J
+java:S5411Q"(Use a primitive boolean expression here.(ÎÙ¤šýÿÿÿÿ8ÖÞŸ¤á1
 N
-java:S1153W"1Directly append the argument of String.valueOf().(÷¶ÈË8ˆ¯š˜á1
+java:S1153W"1Directly append the argument of String.valueOf().(÷¶ÈË8×ÞŸ¤á1
 X	java:S125
-"<This block of commented-out lines of code should be removed.(ó«ûÝ8ï´˜á1
-X	java:S125"<This block of commented-out lines of code should be removed.(¾Î™½8Å¯š˜á1
-L	java:S106$"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8Æ¯š˜á1
+"<This block of commented-out lines of code should be removed.(ó«ûÝ8„àŸ¤á1
+X	java:S125"<This block of commented-out lines of code should be removed.(¾Î™½8„àŸ¤á1
+L	java:S106$"+Replace this use of System.out by a logger.(Ž½Ž¦ÿÿÿÿÿ8…àŸ¤á1
 E
-java:S2140&")Use "java.util.Random.nextInt()" instead.(ÑÈÙz8Æ¯š˜á1
-L	java:S1064"+Replace this use of System.out by a logger.(ËÜ¡þÿÿÿÿ8Æ¯š˜á1
-G	java:S1065"+Replace this use of System.out by a logger.(¦±ƒû8È¯š˜á1
+java:S2140&")Use "java.util.Random.nextInt()" instead.(ÑÈÙz8†àŸ¤á1
+L	java:S1064"+Replace this use of System.out by a logger.(ËÜ¡þÿÿÿÿ8‡àŸ¤á1
+G	java:S1065"+Replace this use of System.out by a logger.(¦±ƒû8‡àŸ¤á1
 c
-java:S1126D"AReplace this if-then-else statement by a single return statement.(ßÂ®ôÿÿÿÿÿ8Ç¯š˜á1
-G	java:S106W"+Replace this use of System.out by a logger.(÷¶ÈË8È¯š˜á1
-G	java:S106X"+Replace this use of System.out by a logger.(àÌ8É¯š˜á1
-L	java:S106q"+Replace this use of System.out by a logger.(¾ÒÝ¡ùÿÿÿÿ8É¯š˜á1
-L	java:S106s"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8Â¦›˜á1
+java:S1126D"AReplace this if-then-else statement by a single return statement.(ßÂ®ôÿÿÿÿÿ8ˆàŸ¤á1
+G	java:S106W"+Replace this use of System.out by a logger.(÷¶ÈË8‹àŸ¤á1
+G	java:S106X"+Replace this use of System.out by a logger.(àÌ8‹àŸ¤á1
+L	java:S106q"+Replace this use of System.out by a logger.(¾ÒÝ¡ùÿÿÿÿ8àŸ¤á1
+L	java:S106s"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ8ŽàŸ¤á1
+L	java:S106w"+Replace this use of System.out by a logger.(Ûð¼îùÿÿÿÿ8ŽàŸ¤á1
+G	java:S106y"+Replace this use of System.out by a logger.(†²ëÏ8àŸ¤á1
+P
+java:S1172|".Remove this unused method parameter "matrice".(…§¬„ýÿÿÿÿ8¸Í ¤á1

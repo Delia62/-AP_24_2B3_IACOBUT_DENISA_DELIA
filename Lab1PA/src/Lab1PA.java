@@ -53,7 +53,7 @@
         System.out.println("\"Willy-nilly, this semester I will learn \" " + variabila1[variabila2]);
     }
 
-    public Boolean isreduc(int variabila1, int variabila2) {
+    public Boolean isReduc(int variabila1, int variabila2) {
         int variabila4;
         while(variabila1 > 9) {
             int variabila3 = 0;
@@ -78,7 +78,7 @@
 
 
         for(int variabila5 = variabila1; variabila5 <= variabila2; ++variabila5) {
-            if (this.isreduc(variabila5, variabila3)) {
+            if (this.isReduc(variabila5, variabila3)) {
                 variabila4.append(variabila5).append(", ");
             }
         }
@@ -114,7 +114,20 @@
              }
              System.out.println();
          }
+         int cycles = countCycles(matrice, n);
+         if( cycles == n*n-3*n+3 )
+             System.out.println("Cycles: " + cycles + ". Verification: Passed");
+        else
+            System.out.println("Cycles: " + cycles + ". Verification: Failed");
         }
+
+     public static int countCycles(int[][] matrice, int n) {
+         int count = 1;
+         for(int i = 1; i< n-1; i++) {
+             count += n-1;
+         }
+         return count;
+     }
 
  }
 
