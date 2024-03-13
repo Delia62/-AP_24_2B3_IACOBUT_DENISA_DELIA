@@ -1,5 +1,7 @@
 
-m
-java:S1206 "PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8™¦úà1
-f
-java:S4201!"IRemove this unnecessary null check; "instanceof" returns false for nulls.(ÊşÑ”8’™¦úà1
+[
+java:S5993."9Change the visibility of this constructor to "protected".(ÁœóÛøÿÿÿÿ8£ö¿á1
+[
+java:S59931"9Change the visibility of this constructor to "protected".(’ÊŒúÿÿÿÿ8£ö¿á1
+[
+java:S59939"9Change the visibility of this constructor to "protected".(ñÙó‰şÿÿÿÿ8ä”êá1
