@@ -1,11 +1,11 @@
 
 L
 java:S1197	"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8¤Á¶Àã1
-L	java:S106"+Replace this use of System.out by a logger.(óô«àÿÿÿÿÿ8©Á¶Àã1
-G	java:S106-"+Replace this use of System.out by a logger.(´¶»×8­Á¶Àã1
-G	java:S106."+Replace this use of System.out by a logger.(üáğÉ8­Á¶Àã1
-G	java:S106/"+Replace this use of System.out by a logger.(ç‘³¬8®Á¶Àã1
-G	java:S1060"+Replace this use of System.out by a logger.(á„ï‘8®Á¶Àã1
-G	java:S1061"+Replace this use of System.out by a logger.(ó—ÛÎ8®Á¶Àã1
-L	java:S1062"+Replace this use of System.out by a logger.(ñµıÿÿÿÿ8®Á¶Àã1
-G	java:S1069"+Replace this use of System.out by a logger.(ğÌƒÙ8£»Àã1
+L	java:S106"+Replace this use of System.out by a logger.(óô«àÿÿÿÿÿ8©Á¶Àã1
+G	java:S106+"+Replace this use of System.out by a logger.(´¶»×8­Á¶Àã1
+G	java:S106,"+Replace this use of System.out by a logger.(üáğÉ8­Á¶Àã1
+G	java:S106-"+Replace this use of System.out by a logger.(ç‘³¬8®Á¶Àã1
+G	java:S106."+Replace this use of System.out by a logger.(á„ï‘8®Á¶Àã1
+G	java:S106/"+Replace this use of System.out by a logger.(ó—ÛÎ8®Á¶Àã1
+L	java:S1060"+Replace this use of System.out by a logger.(ñµıÿÿÿÿ8®Á¶Àã1
+G	java:S1067"+Replace this use of System.out by a logger.(ğÌƒÙ8£»Àã1

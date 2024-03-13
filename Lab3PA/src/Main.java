@@ -11,8 +11,6 @@ public class Main {  //Iacobut Denisa-Delia
         museum.setTimetable();
         museum.setTicketPrice(20);
 
-/////LA SORTARE NU PREA ESTE DUPA ORA DE DESCHIDERE
-
         Church church = new Church("Church1");
 
         Map<LocalDate,TimeInterval> localDateTimeIntervalMap = new HashMap<>();
