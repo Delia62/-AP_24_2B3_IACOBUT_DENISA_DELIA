@@ -4,23 +4,23 @@ import java.util.*;
 import java.util.concurrent.atomic.AtomicReference;
 
 public class TravelPlan {  //Iacobut Denisa-Delia
-    private List<Attraction> attractions;
+    private List<Visitable> visitables;
     private  LocalDate date;
 
-    public TravelPlan(List<Attraction> attractions, LocalDate date) {
-        this.attractions = attractions;
+    public TravelPlan(List<Visitable> visitables, LocalDate date) {
+        this.visitables = visitables;
         this.date = date;
     }
 
     public TravelPlan() {
     }
 
-    public List<Attraction> getAttractions() {
-        return attractions;
+    public List<Visitable> getAttractions() {
+        return visitables;
     }
 
-    public void setAttractions(List<Attraction> attractions) {
-        this.attractions = attractions;
+    public void setAttractions(List<Visitable> visitables) {
+        this.visitables = visitables;
     }
 
     public LocalDate getDate() {
@@ -30,14 +30,14 @@ public class TravelPlan {  //Iacobut Denisa-Delia
     public void setDate(LocalDate date) {
         this.date = date;
     }
-     public void addAttractions(Attraction attraction){
-        this.attractions.add(attraction);
+     public void addAttractions(Visitable attraction){
+        this.visitables.add(attraction);
      }
 
     @Override
     public String toString() {
         return "TravelPlan{" +
-                "attractions=" + attractions +
+                "attractions=" + visitables +
                 ", date=" + date +
                 '}';
     }

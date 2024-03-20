@@ -6,7 +6,10 @@ public class Church extends Attraction implements Visitable {  //Iacobut Denisa-
     private String address;
     private Map<LocalDate, TimeInterval> timetable;
     private String description;
-
+  /*  public LocalTime getOpenHour(){
+        return timetable.get(timetable.)
+    }
+*/
     public void setTimetable(Map<LocalDate, TimeInterval> timetable) {
         this.timetable = timetable;
     }

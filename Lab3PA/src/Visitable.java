@@ -22,11 +22,7 @@ public interface Visitable {  //Iacobut Denisa-Delia
         }
         return null;
     }
-   /* default  LocalDate getLocalData(){
-        Map<LocalDate, TimeInterval> timetable = getTimetable();
-        LocalDate localDate = timetable.get(Attraction);
-    }
-*/
+
     static Duration getVisitingDuration(LocalTime openingHour, LocalTime closingHour) {
         return Duration.between(openingHour, closingHour);
     }

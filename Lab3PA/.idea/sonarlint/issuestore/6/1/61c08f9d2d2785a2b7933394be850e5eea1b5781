@@ -1,9 +1,13 @@
 
+7
+java:S1220""Move this file to a named package.8½ï§Õå1
 v
-java:S1210*"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ÛçÍ‚8„ù¿ã1
+java:S1210$"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ÛçÍ‚8„ù¿ã1
 [
-java:S5993"9Change the visibility of this constructor to "protected".(óòš¼şÿÿÿÿ8…ù¿ã1
+java:S5993"9Change the visibility of this constructor to "protected".(óòš¼şÿÿÿÿ8…ù¿ã1
 A
 java:S1168"$Return an empty map instead of null.(¥¹ï8‡ù¿ã1
 Q
-java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8®µ„Àã1
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8èÊ³¸å1
+R
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8Ïó³¸å1

@@ -1,12 +1,11 @@
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Trip {  //Iacobut Denisa-Delia
     private String city;
     private LocalDate start, end;
-    private List<Attraction> attractions = new ArrayList<>();
+    private List<Visitable> visitables = new ArrayList<>();
 
     public Trip() {
     }
@@ -17,11 +16,11 @@ public class Trip {  //Iacobut Denisa-Delia
         this.end = end;
     }
 
-    public Trip(String city, LocalDate start, LocalDate end, List<Attraction> attractions) {
+    public Trip(String city, LocalDate start, LocalDate end, List<Visitable> visitables) {
         this.city = city;
         this.start = start;
         this.end = end;
-        this.attractions = attractions;
+        this.visitables = visitables;
     }
 
     public String getCity() {
@@ -36,8 +35,8 @@ public class Trip {  //Iacobut Denisa-Delia
         return end;
     }
 
-    public List<Attraction> getAttractions() {
-        return attractions;
+    public List<Visitable> getAttractions() {
+        return visitables;
     }
 
     public void setCity(String city) {
@@ -52,39 +51,36 @@ public class Trip {  //Iacobut Denisa-Delia
         this.end = end;
     }
 
-    public void setAttractions(List<Attraction> attractions) {
-        this.attractions = attractions;
+    public void setAttractions(List<Visitable> visitables) {
+        this.visitables = visitables;
     }
-    public void OrderedAttractions(){
-        List<Attraction> nonPayableAttractions = new ArrayList<>();
-        for (Attraction attraction : attractions) {
-            if (attraction instanceof Visitable && !(attraction instanceof Payable)) {
-                nonPayableAttractions.add(attraction);
+    public void orderedAttractions(List<Visitable> visitables, LocalDate date){
+        List<Visitable> nonPayableAttractions = new ArrayList<>();
+        for (Visitable visitable : visitables) {
+            if (visitable.getOpeningHour(date) != null && !(visitable instanceof Payable)) {
+                nonPayableAttractions.add(visitable);
             }
         }
-        for (Attraction attraction : nonPayableAttractions) {
-            attraction.compareTo(attraction);
-        }
-       /* nonPayableAttractions.sort((attraction1, attraction2) -> {
-            LocalTime openHour1 = attraction1.getOpenHour(start);
-            LocalTime openHour2 = attraction2.getOpenHour(start);
-            return openHour1.compareTo(openHour2);
-        });*/
 
-
+        Collections.sort(nonPayableAttractions, new Comparator<Visitable>() {
+            @Override
+            public int compare(Visitable v1, Visitable v2) {
+                return v1.getOpeningHour(date).compareTo(v2.getOpeningHour(date));
+            }
+        });
         System.out.println("Not payable visitable attractions:");
-        for (Attraction attraction : nonPayableAttractions) {
+        for (Visitable attraction : nonPayableAttractions) {
             System.out.println("Location: " + attraction );
         }
-
     }
+
     @Override
     public String toString() {
         return "Trip{" +
                 "city='" + city + '\'' +
                 ", start=" + start +
                 ", end=" + end +
-                ", attractions=" + attractions +
+                ", attractions=" + visitables +
                 '}';
     }
 

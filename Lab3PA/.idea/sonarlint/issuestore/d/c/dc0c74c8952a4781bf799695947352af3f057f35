@@ -1,9 +1,11 @@
 
+E
+java:S1604A"(Make this anonymous inner class a lambda(şˆ¹8šçÃ¸å1
+7
+java:S1220""Move this file to a named package.8šş§Õå1
 C
-java:S1659"!Declare "end" on a separate line.(í¯Œøùÿÿÿÿ8êÀç¿ã1
-o	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÒˆ£üÿÿÿÿ8ïÀç¿ã1
-G	java:S106K"+Replace this use of System.out by a logger.(Õˆ¦‡8ğÀç¿ã1
-W	java:S125D"<This block of commented-out lines of code should be removed.(ñŒ‘w8ğÀç¿ã1
-L	java:S106M"+Replace this use of System.out by a logger.(ÿÀ¶Âúÿÿÿÿ8ñÀç¿ã1
+java:S1659"!Declare "end" on a separate line.(í¯Œøùÿÿÿÿ8©çÃ¸å1
+G	java:S106G"+Replace this use of System.out by a logger.(Õˆ¦‡8¬ñÖ¸å1
+L	java:S106I"+Replace this use of System.out by a logger.(ÿÀ¶Âúÿÿÿÿ8¬ñÖ¸å1
 R
-java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8ûşé¿ã1
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8÷Ë›Õå1

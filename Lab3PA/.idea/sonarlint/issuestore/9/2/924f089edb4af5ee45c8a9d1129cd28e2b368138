@@ -1,11 +1,13 @@
 
-L
-java:S1197	"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8¤Á¶Àã1
-L	java:S106"+Replace this use of System.out by a logger.(óô«àÿÿÿÿÿ8©Á¶Àã1
-G	java:S106+"+Replace this use of System.out by a logger.(´¶»×8­Á¶Àã1
-G	java:S106,"+Replace this use of System.out by a logger.(üáğÉ8­Á¶Àã1
-G	java:S106-"+Replace this use of System.out by a logger.(ç‘³¬8®Á¶Àã1
-G	java:S106."+Replace this use of System.out by a logger.(á„ï‘8®Á¶Àã1
-G	java:S106/"+Replace this use of System.out by a logger.(ó—ÛÎ8®Á¶Àã1
-L	java:S1060"+Replace this use of System.out by a logger.(ñµıÿÿÿÿ8®Á¶Àã1
-G	java:S1067"+Replace this use of System.out by a logger.(ğÌƒÙ8£»Àã1
+]
+java:S1220""Move this file to a named package.8Ìü§Õå1J$8507f8a3-6517-4657-8f8e-3e66378b9641
+r
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8Ñ‘Ó¸å1J$ff12e5fd-b5bb-4777-a820-36900be0708a
+m	java:S106"+Replace this use of System.out by a logger.(±œØÛ8Ö‘Ó¸å1J$50b6bde4-461c-427a-85af-e70ce52fe0f3
+m	java:S1062"+Replace this use of System.out by a logger.(´¶»×8Ø‘Ó¸å1J$3e88ec6a-8c55-4cfe-b4a1-995c2c5ee0c9
+m	java:S1063"+Replace this use of System.out by a logger.(üáğÉ8Ø‘Ó¸å1J$e65cee67-bffd-4a3d-8095-c26eae66792a
+m	java:S1064"+Replace this use of System.out by a logger.(ç‘³¬8Ù‘Ó¸å1J$7a7fc58e-5876-4d42-b9ea-bd52ab93374b
+m	java:S1065"+Replace this use of System.out by a logger.(á„ï‘8Ù‘Ó¸å1J$bfb45aca-7ac3-497a-9a06-f509280cd4a5
+m	java:S1066"+Replace this use of System.out by a logger.(ó—ÛÎ8Ù‘Ó¸å1J$38beb3b7-af80-456f-afbc-86e5e1ab99a6
+r	java:S1067"+Replace this use of System.out by a logger.(ñµıÿÿÿÿ8Ù‘Ó¸å1J$d25b3ad0-10df-46da-bd3a-0b20d4168283
+m	java:S106@"+Replace this use of System.out by a logger.(ğÌƒÙ8‹Ô¸å1J$1d8a3bc8-feb5-4a26-b2ec-02c24a9ed4fb

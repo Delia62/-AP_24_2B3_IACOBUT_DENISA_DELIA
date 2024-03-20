@@ -10,13 +10,7 @@ public abstract class Attraction
     Map<LocalDate, TimeInterval> getSchedule() {
         return null;
     }
-    public LocalTime getOpenHour(LocalDate date) {
-        return ((Visitable) this).getOpeningHour(date);
-    }
 
-    public LocalTime getCloseHour(LocalDate date) {
-        return ((Visitable) this).getClosingHour(date);
-    }
 
     public String getName() {
         return name;
