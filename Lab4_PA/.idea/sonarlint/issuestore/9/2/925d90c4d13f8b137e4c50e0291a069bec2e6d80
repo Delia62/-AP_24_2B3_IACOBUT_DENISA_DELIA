@@ -1,4 +1,6 @@
 
-7
-java:S1220""Move this file to a named package.8§ô§Õå1
-]	java:S125'"<This block of commented-out lines of code should be removed.(¹ÒÍøÿÿÿÿ8ãÎ¿ºå1
+L	java:S106"+Replace this use of System.out by a logger.(¼çéœúÿÿÿÿ8íù¬æ1
+o
+java:S6204("RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ñù¬æ1
+L	java:S1060"+Replace this use of System.out by a logger.(„À¢Ñùÿÿÿÿ8òù¬æ1
+L	java:S1065"+Replace this use of System.out by a logger.(ú¿şÿÿÿÿ8óù¬æ1

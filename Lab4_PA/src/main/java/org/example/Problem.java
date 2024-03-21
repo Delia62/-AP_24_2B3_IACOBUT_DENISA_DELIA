@@ -1,67 +1,58 @@
-/*package org.example;
+package org.example;
 
-import javax.management.relation.Role;
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Problem {
+    private List<Driver> drivers;
+    private List<Person> passengers;
 
-
-    private static List<Person> generateRandomPersons(int count) {
-        List<Person> persons = new ArrayList<>();
-        Random random = new Random();
-        List<String> names = Arrays.asList("Alin", "Bogdan", "Paul", "Denis", "Emanuel", "Xenia", "Lucian", "Peter", "Tera", "Mary");
-
-
-        for (int i = 0; i < count; i++) {
-            //Role role = random.nextBoolean() ? Role.DRIVER : Role.PASSENGER;
-            String name = names.get(random.nextInt(names.size()));;
-            int age = random.nextInt(50) + 20;
-            List<Destination> destinations = generateRandomDestinations(random.nextInt(3) + 1);
-
-            persons.add(new Person(destinations,name, age));
-        }
-
-        return persons;
+    public Problem(List<Driver> drivers, List<Person> passengers) {
+        this.drivers = drivers;
+        this.passengers = passengers;
     }
 
-    private static List<Destination> generateRandomDestinations(int count) {
-        List<Destination> destinations = new ArrayList<>();
-        Random random = new Random();
-
-        for (int i = 0; i < count; i++) {
-            destinations.add(new Destination("Destination " + random.nextInt(100)));
+    public void getDriverDestinations() {
+        for( Driver driver : drivers){
+            System.out.println("[ Driver " + driver.getName() + " is going to " + driver.getDestinations() + "]");
         }
-
-        return destinations;
     }
-*/
- /*List<Person> persons = generateRandomPersons(10);
-        List<Person> drivers = persons.stream().filter(p -> p.getRole() == Role.DRIVER)
-                .sorted(Comparator.comparingInt(Person::getAge))
-                .collect(Collectors.toList());
-        Set<Person> passengers = new TreeSet<>(Comparator.comparing(Person::getName));
-        persons.stream().filter(p -> p.getRole() == Role.PASSENGER)
-                .forEach(passengers::add);
 
-        System.out.println("Drivers sorted by age:");
-        drivers.forEach(System.out::println);
+    public Map<String, List<String>> getDestinationMap() {
+        Map<String, List<String>> destinationMap = new HashMap<>();
+        for (Person passenger : passengers) {
+            String destination = passenger.getDestination();
+            destinationMap.putIfAbsent(destination, new ArrayList<>());
+            destinationMap.get(destination).add(passenger.getName());
+        }
+        return destinationMap;
+    }
 
-        System.out.println("\nPassengers sorted by name:");
-        passengers.forEach(System.out::println);
+    public void matchDriversAndPassengers() {
+        for (Driver driver : drivers) {
 
-        List<Destination> destinations = drivers.stream()
-                .flatMap(driver -> driver.getDestinations().stream())
-                .distinct()
-                .collect(Collectors.toList());
-        System.out.println("\nDestinations passed by drivers:");
-        destinations.forEach(System.out::println);
+            List<String> destinations = driver.getDestinations();
+            List<Person> matchingPassengers = new ArrayList<>();
+            for (String destination : destinations){
+                matchingPassengers = passengers.stream()
+                        .filter(passenger -> passenger.getDestination().equals(destination))
+                        .limit(1)
+                        .collect(Collectors.toList());
+                if(!matchingPassengers.isEmpty()){
+                    break;
+                }
 
-        Map<Destination, Set<Person>> destinationMap = new HashMap<>();
-        persons.forEach(person -> person.getDestinations().forEach(destination ->
-                destinationMap.computeIfAbsent(destination, k -> new HashSet<>()).add(person)));
+            }
+            if (!matchingPassengers.isEmpty()) {
+                Person passenger = matchingPassengers.getFirst();
+                System.out.println("{ Passenger " + passenger.getName() + " is matched with driver " + driver.getName() + "}");
+                passengers.remove(passenger);
 
-        System.out.println("\nDestination map:");
-        destinationMap.forEach((destination, people) ->
-                System.out.println(destination + ": " + people.stream().map(Person::getName).collect(Collectors.joining(", "))));
-    }*/
+            }
+           else {
+                System.out.println("No passenger matched with driver " + driver.getName());
+            }
+        }
+    }
+}
+
