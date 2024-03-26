@@ -1,15 +1,7 @@
 
-ˆ
-java:S1854"ERemove this useless assignment to local variable "driverDestination".(øı¥ï8ºş™æ1J$1adf3245-afbe-4736-868c-6a894d5d6a67
-|
-java:S1854	"9Remove this useless assignment to local variable "faker".(Êƒ¿â8»ş™æ1J$0fa8310c-438c-41bc-9dc6-c203aa8227d3
-m
-java:S1481	"*Remove this unused "faker" local variable.(Êƒ¿â8Ğş™æ1J$a9705bad-491d-48fc-8eac-9c42b872ff43
-y
-java:S1481"6Remove this unused "driverDestination" local variable.(øı¥ï8Ôş™æ1J$3108141a-b2c4-436b-ac7d-78d819abbff5
-~	java:S125"<This block of commented-out lines of code should be removed.(¬™Öö8Õş™æ1J$4ae5d3fc-a866-48d2-a5f7-ed6a49df8a69
-r	java:S106N"+Replace this use of System.out by a logger.(åø¦÷øÿÿÿÿ8ßş™æ1J$02e0ed1b-d6ad-4ac7-939d-30833d7f4ba1
-m	java:S106R"+Replace this use of System.out by a logger.(±âİŸ8àş™æ1J$74fa50e8-8ef2-4554-acf2-f916f3abe081
-~	java:S125U"<This block of commented-out lines of code should be removed.(÷…ß±8áş™æ1J$bf4783e2-0dea-47ae-81c6-25ae58f9b469
+L	java:S106!"+Replace this use of System.out by a logger.(åø¦÷øÿÿÿÿ8Ş®×ç1
+G	java:S106%"+Replace this use of System.out by a logger.(±âİŸ8 Ş®×ç1
+~	java:S125+"<This block of commented-out lines of code should be removed.(­¢ûò8áş™æ1J$40a6409d-3c7d-421f-951d-5892d0c96eaf
+~	java:S125Z"<This block of commented-out lines of code should be removed.(­¢ûò8Ñô©×ç1J$ae1bcb31-e959-4822-a938-cb3c89bffa14
 €
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8 Çæ1J$577a5a2f-233a-4537-9d7a-b2c4e11f29db
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8 Çæ1J$f9680e31-7087-4f23-8ff9-090a28c1ba3c

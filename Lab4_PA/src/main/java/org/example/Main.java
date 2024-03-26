@@ -13,7 +13,7 @@ public class Main {
         List<String> driverDestination = new ArrayList<>();
 
 
-        /*for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i++) {
             String driverName = faker.name().fullName();
             int driverAge = faker.number().numberBetween(18, 60);
             for( int j=0; j<1; j++){
@@ -26,8 +26,20 @@ public class Main {
             int passengerAge = faker.number().numberBetween(10, 80);
             String passengerDestination = faker.address().city();
             passengers.add(new Person(passengerName, passengerDestination, passengerAge));
-        }*/
+        }
+        Problem problem = new Problem(drivers, passengers);
 
+        Map<String, List<String>> destinationMap = problem.getDestinationMap();
+        System.out.println("Destination map is " + destinationMap);
+
+        problem.getDriverDestinations();
+
+        System.out.println("Match drivers and passengers: ");
+        problem.matchDriversAndPassengers();
+
+
+        /*
+        Proba sa vad daca merge bine cand sunt destinatii care se intersecteaza
         Person person1 = new Person("Iasi","Ana",20);
         Person person2 = new Person("Roman","Ionel", 35);
         Person person3 = new Person("Brasov", "Paul",23);
@@ -70,19 +82,12 @@ public class Main {
        passengers.add(person1);
        passengers.add(person2);
        passengers.add(person3);
-       passengers.add(person4);
+       passengers.add(person4);*/
 
-        Problem problem = new Problem(drivers, passengers);
 
-        Map<String, List<String>> destinationMap = problem.getDestinationMap();
-        System.out.println("Destination map is " + destinationMap);
-
-         problem.getDriverDestinations();
-
-        System.out.println("Match drivers and passengers: ");
-        problem.matchDriversAndPassengers();
-
-       /* Person person1 = new Person("Iasi","Ana",20);
+       /*
+       //Compulsory
+       Person person1 = new Person("Iasi","Ana",20);
         Person person2 = new Person("Roman","Ionel", 35);
         Person person3 = new Person("Iasi", "Paul",23);
         Person person4 = new Person("Cluj", "Kira",18);
