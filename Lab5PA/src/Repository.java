@@ -1,8 +1,5 @@
 import java.io.File;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Repository {
     private File rootDirectory;
@@ -20,29 +17,41 @@ public class Repository {
         for (Person person : employees) {
             List<Document> documents1 = new ArrayList<>();
             File personDirectory = new File(rootDirectory, String.valueOf(person.getId()));
-            if (personDirectory.exists() && personDirectory.isDirectory()) {
-                for (File file : personDirectory.listFiles()) {
-                    if (file.isFile()) {
-                        String fileName = file.getName();
-                        String fileFormat = fileName.substring(fileName.lastIndexOf('.') + 1);
-                        documents1.add(new Document(fileName, fileFormat));
+            try {
+                if (personDirectory.exists() && personDirectory.isDirectory()) {
+                    for (File file : personDirectory.listFiles()) {
+                        try {
+                            if (file.isFile()) {
+                                String fileName = file.getName();
+                                String fileFormat = fileName.substring(fileName.lastIndexOf('.') + 1);
+                                documents1.add(new Document(fileName, fileFormat));
+                            }
+                        } catch (NullPointerException  e) {
+                            System.out.println("File not found...");
+                        }
                     }
                 }
+            } catch (SecurityException e) {
+                System.out.println("Person directory not found..");
             }
             documents.put(person, documents1);
         }
     }
 
     public void displayRepository(List<Person> persons) {
-        getEmployeesDocuments(persons);
-        for (Map.Entry<Person, List<Document>> entry : documents.entrySet()) {
-            Person person = entry.getKey();
-            List<Document> documents1 = entry.getValue();
-            System.out.println("Employee: " + person.getName() + " [id: " + person.getId() + "]");
-            for (Document document : documents1) {
-                System.out.println("  - [name]:" + document.getName() + ", [format]: " + document.getFormat());
+        try {
+            getEmployeesDocuments(persons);
+            for (Map.Entry<Person, List<Document>> entry : documents.entrySet()) {
+                Person person = entry.getKey();
+                List<Document> documents1 = entry.getValue();
+                System.out.println("Employee: " + person.getName() + " [id: " + person.getId() + "]");
+                for (Document document : documents1) {
+                    System.out.println("  - [name]:" + document.getName() + ", [format]: " + document.getFormat());
+                }
+                System.out.println();
             }
-            System.out.println();
+        } catch (NullPointerException e) {
+            System.out.println("Employees not found..");
         }
     }
 }
