@@ -1,0 +1,15 @@
+
+V
+java:S1220""Move this file to a named package.J$ea740eff-115a-4745-a2a4-fb390b5ead56
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹••û8ã‰¤è1
+Z
+java:S1117&"=Rename "documents" which hides the field declared at line 21.(¥×†Æ8æ‰¤è1
+L	java:S106;"+Replace this use of System.out by a logger.(„õèÇüÿÿÿÿ8ë‰¤è1
+L	java:S106="+Replace this use of System.out by a logger.(¹“šøÿÿÿÿ8ë‰¤è1
+L	java:S106?"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ë‰¤è1
+G	java:S106B"+Replace this use of System.out by a logger.(Ş…Ã”8ë‰¤è1
+c
+java:S1075Q"ARefactor your code to get this URI from a customizable parameter.(Øƒóşÿÿÿÿ8ï‰¤è1
+G	java:S106^"+Replace this use of System.out by a logger.(Ü…å¥8ò‰¤è1
+X	java:S125m"<This block of commented-out lines of code should be removed.(ò›‘›8õ‰¤è1

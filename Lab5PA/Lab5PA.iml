@@ -7,6 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="apache-freemarker-2.3" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="497f7411-de42-4e5d-8e47-f32e938b723c" />

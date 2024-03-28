@@ -1,0 +1,36 @@
+
+‰
+java:S1854"ARemove this useless assignment to local variable "exportCommand".(‡ËŒºúÿÿÿÿ8­’µ¤è1J$3bcd6a03-15cd-46e9-bf68-80b8ba9d1117
+„
+java:S1854"ARemove this useless assignment to local variable "reportCommand".(‰ù±‡8úÛµ¤è1J$5da639a2-893c-4e96-8438-38495a5de414
+‚
+java:S1854"?Remove this useless assignment to local variable "viewCommand".(™¡êä8¼Ñ¶¤è1J$4ff83b1e-dba7-43bd-b994-2af24362c9ed
+a
+java:S1854"?Remove this useless assignment to local variable "listCommand".(¡ÎßËþÿÿÿÿ8–ÁÀ¤è1
+…
+java:S1854
+"=Remove this useless assignment to local variable "directory".(çÐ±Ûþÿÿÿÿ8È¦Š¤è1J$e454b465-22b6-4aab-82ec-4bbcba70958d
+‰
+java:S1130	"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8™ÁÀ¤è1
+‰
+java:S1075
+"ARefactor your code to get this URI from a customizable parameter.(çÐ±Ûþÿÿÿÿ8Ì¦Š¤è1J$0c223962-5205-43c4-9b34-2bf6817a4887
+v
+java:S1481
+".Remove this unused "directory" local variable.(çÐ±Ûþÿÿÿÿ8Í¦Š¤è1J$4dbaaae6-8007-47ef-baf9-40a3f74d1cba
+~	java:S125"<This block of commented-out lines of code should be removed.(½¿âÖ8Î¦Š¤è1J$93d0b54c-b17a-4fea-b339-f69943db4cd5
+„
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(òÑÚ»8Î¦Š¤è1J$213cabda-d235-4495-8fdb-13949012b130
+R
+java:S1481"0Remove this unused "listCommand" local variable.(¡ÎßËþÿÿÿÿ8ŸÁÀ¤è1
+s
+java:S1481"0Remove this unused "viewCommand" local variable.(™¡êä8ÆÑ¶¤è1J$b331b5b9-f39e-4966-8698-3a3504483ab6
+u
+java:S1481"2Remove this unused "reportCommand" local variable.(‰ù±‡8‰Üµ¤è1J$efc49977-cd07-4178-8813-fe073c0acca7
+z
+java:S1481"2Remove this unused "exportCommand" local variable.(‡ËŒºúÿÿÿÿ8¸’µ¤è1J$d10d6a6e-a1be-46b1-8487-475cf036f6b1
+X	java:S125 "<This block of commented-out lines of code should be removed.(ß·Û›8 ÁÀ¤è1
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¹’µ¤è1J$af8db7e4-15d9-4df6-9a3e-0191bd047d56
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¹’µ¤è1J$de3ff278-28f6-4004-a3b2-708743077672

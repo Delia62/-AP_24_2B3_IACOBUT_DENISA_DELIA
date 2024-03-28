@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-       File directory = new File("C:\\Users\\Delia\\Documents\\DirectorPA");
+        File directory = new File("C:\\Users\\Delia\\Documents\\DirectorPA");
         Person person1 = new Person("Marian", 123, directory);
         Person person2 = new Person("Ana", 456, directory);
 

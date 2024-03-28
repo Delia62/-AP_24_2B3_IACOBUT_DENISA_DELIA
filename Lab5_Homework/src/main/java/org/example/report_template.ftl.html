@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Repository Report</title>
+</head>
+<body>
+    <h1>Document Repository Report</h1>
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th>Document Name</th>
+            <th>Document Format</th>
+        </tr>
+        <#list documents as person, docList>
+            <#list docList as document>
+                <tr>
+                    <td>${person.name}</td>
+                    <td>${document.name}</td>
+                    <td>${document.format}</td>
+                </tr>
+            </#list>
+        </#list>
+    </table>
+</body>
+</html>
