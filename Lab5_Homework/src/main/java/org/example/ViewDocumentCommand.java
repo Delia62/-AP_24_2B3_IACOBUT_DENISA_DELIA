@@ -1,7 +1,5 @@
 package org.example;
 
-import org.example.Command;
-
 import java.io.IOException;
 
 public class ViewDocumentCommand implements Command {

@@ -1,15 +1,0 @@
-
-V
-java:S1220""Move this file to a named package.J$537c52fc-e352-4971-9c6f-ad81c4c550f8
-•
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹••û8ã‰¤è1J$ee6f962b-3bb8-4ea9-807b-b4d84bef73eb
-€
-java:S1117$"=Rename "documents" which hides the field declared at line 19.(¥×†Æ8æ‰¤è1J$af3a437d-4e43-4c57-99d0-8060f7563dc1
-r	java:S1069"+Replace this use of System.out by a logger.(„õèÇüÿÿÿÿ8ë‰¤è1J$064746c7-628d-47da-98fe-89275cead06c
-r	java:S106;"+Replace this use of System.out by a logger.(¹“šøÿÿÿÿ8ë‰¤è1J$a6a5878c-e4f9-49eb-ac52-9e4f955eb74c
-r	java:S106="+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ë‰¤è1J$83173a67-248c-426c-a0b2-87cfed14b25f
-m	java:S106@"+Replace this use of System.out by a logger.(Ş…Ã”8ë‰¤è1J$262c8414-bd32-4326-a27d-d0ee5b7e4175
-‰
-java:S1075O"ARefactor your code to get this URI from a customizable parameter.(Øƒóşÿÿÿÿ8ï‰¤è1J$887ea256-333a-48fb-9393-062fe3be92d1
-m	java:S106\"+Replace this use of System.out by a logger.(Ü…å¥8ò‰¤è1J$26c43242-5aa9-4356-abc8-9f34a84795db
-~	java:S125k"<This block of commented-out lines of code should be removed.(ò›‘›8õ‰¤è1J$b0189541-38d1-4e50-b68e-a86a45c4f7dd

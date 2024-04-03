@@ -14,9 +14,7 @@ import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.example.Person;
 
-import javax.swing.text.Document;
 
 
 public class Repository {
@@ -80,12 +78,12 @@ public class Repository {
     public void generateReport() throws IOException {
         // Implementarea pentru generarea raportului HTML utilizând FreeMarker
         // Configurarea FreeMarker și obținerea șablonului HTML
-        Configuration cfg = new Configuration(Configuration.VERSION_2_3_31);
-        cfg.setDirectoryForTemplateLoading(new File("C:\\Users\\Delia\\Documents\\GitHub\\-AP_24_2B3_IACOBUT_DENISA_DELIA\\Lab5PA\\src"));
-        cfg.setDefaultEncoding("UTF-8");
+        Configuration configuration = new Configuration(Configuration.VERSION_2_3_31);
+        configuration.setDirectoryForTemplateLoading(new File("C:\\Users\\Delia\\Documents\\GitHub\\-AP_24_2B3_IACOBUT_DENISA_DELIA\\Lab5PA\\src"));
+        configuration.setDefaultEncoding("UTF-8");
 
         // Crearea unui model de date pentru șablon
-        Template template = cfg.getTemplate("report_template.ftl.html");
+        Template template = configuration.getTemplate("report_template.ftl.html");
         Map<String, Object> data = new HashMap<>();
         data.put("documents", documents);
 
@@ -106,6 +104,47 @@ public class Repository {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.writeValue(outputFile, documents);
     }
+    public void shell() {
+        Scanner scanner = new Scanner(System.in);
+        Repository repository = new Repository(rootDirectory);
+
+
+        while (true) {
+            System.out.print("Introdu comanda: ");
+            String comanda = scanner.nextLine();
+
+            if (comanda.equals("exit")) {
+                System.out.println("S-a terminat programul!");
+                break;
+            }
+
+            String[] parametrii = comanda.split(" ");
+            try {
+                Command comandaExecutata = null;
+                if (parametrii[0].equals("list")) {
+                    comandaExecutata = new ListDocuments(repository);
+                } else if (parametrii[0].equals("view")) {
+                    if (parametrii.length < 3) {
+                        throw new FolderException("Numar insuficient de parametri pentru comanda 'view'.");
+                    }
+                    comandaExecutata = new ViewDocumentCommand(repository, parametrii[1], parametrii[2]);
+                } else if (parametrii[0].equals("report")) {
+                    comandaExecutata = new GenerateReportCommand(repository);
+                } else if (parametrii[0].equals("export")) {
+                    if (parametrii.length < 2) {
+                        throw new FolderException("Numar insuficient de parametri pentru comanda 'export'.");
+                    }
+                    comandaExecutata = new Export(repository, new File(parametrii[1]));
+                } else {
+                    throw new FolderException("Comanda gresita!");
+                }
+                comandaExecutata.execute();
+            } catch (IOException | FolderException e) {
+                System.out.println("A aparut eroarea: " + e.getMessage());
+            }
+        }
+    }
+
 
 
 }

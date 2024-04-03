@@ -1,13 +1,13 @@
 
-W
-java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8î—Å¤è1
+}
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8î—Å¤è1J$5520873c-5429-4abc-bd12-b9d8ade107df
 ]
-java:S1220""Move this file to a named package.8Ê†£è1J$b681ff2f-6c6f-4608-a8d4-58a091ea87a4
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(“›ÊÚ8‡™Å¤è1
-G	java:S106"+Replace this use of System.out by a logger.(¯Š¡”8Œ™Å¤è1
-G	java:S106#"+Replace this use of System.out by a logger.(«¯Ş‡8™Å¤è1
-L	java:S106/"+Replace this use of System.out by a logger.(ü¸Õúøÿÿÿÿ8™Å¤è1
-L	java:S1061"+Replace this use of System.out by a logger.(¹“šøÿÿÿÿ8™Å¤è1
-L	java:S1063"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8™Å¤è1
-G	java:S1066"+Replace this use of System.out by a logger.(Ş…Ã”8™Å¤è1
+java:S1220""Move this file to a named package.8Ê†£è1J$7a64c5e3-d1f4-4c8b-a4d8-18900f1cef1a
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(“›ÊÚ8‡™Å¤è1J$610bb11a-b355-4082-b28a-3bc253254d51
+m	java:S106"+Replace this use of System.out by a logger.(¯Š¡”8Œ™Å¤è1J$933e663f-6f86-422b-8f92-fdd1803a26c6
+m	java:S106#"+Replace this use of System.out by a logger.(«¯Ş‡8™Å¤è1J$590e13ba-e7cc-49ad-b0aa-5377e07e4e0f
+r	java:S106/"+Replace this use of System.out by a logger.(ü¸Õúøÿÿÿÿ8™Å¤è1J$44285b80-403f-43a2-95b7-ebf5e93c087d
+r	java:S1061"+Replace this use of System.out by a logger.(¹“šøÿÿÿÿ8™Å¤è1J$983d2a67-9091-4339-974c-18c532b2f6f7
+r	java:S1063"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8™Å¤è1J$4d174e18-0717-4ef6-bc46-52118a0dd136
+m	java:S1066"+Replace this use of System.out by a logger.(Ş…Ã”8™Å¤è1J$1e346c26-6781-4140-906d-c22fc4700857

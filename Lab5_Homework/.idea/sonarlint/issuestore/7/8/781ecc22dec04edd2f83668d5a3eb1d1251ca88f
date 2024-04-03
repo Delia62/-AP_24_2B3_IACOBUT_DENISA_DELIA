@@ -1,12 +1,17 @@
 
-
-java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹••ûJ$1b2f71f8-cc92-4c1c-b98b-7e0a4057928d
-y
-java:S1117)"=Rename "documents" which hides the field declared at line 24.(¥×†ÆJ$1c806e97-ebd1-4256-9d60-d7a460820658
-k	java:S106>"+Replace this use of System.out by a logger.(„õèÇüÿÿÿÿJ$d5995cc3-e39b-462c-a632-7870d1315d34
-k	java:S106@"+Replace this use of System.out by a logger.(¹“šøÿÿÿÿJ$093ef465-519e-40e9-a4e0-aef7fa5b65a9
-k	java:S106B"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿJ$bae17e95-32b7-4058-9180-8039ff5a106a
-f	java:S106E"+Replace this use of System.out by a logger.(Ş…Ã”J$1cc93a37-bfe5-4358-9019-2e4c59c9cb06
-‚
-java:S1075T"ARefactor your code to get this URI from a customizable parameter.(ØƒóşÿÿÿÿJ$5369cb30-0cbd-4398-a273-796b305e3e2d
-f	java:S106a"+Replace this use of System.out by a logger.(Ü…å¥J$e9b2feec-1622-4568-af9c-bffd63a71852
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¹••û8º„ñ—ê1
+Z
+java:S1117'"=Rename "documents" which hides the field declared at line 22.(¥×†Æ8¼„ñ—ê1
+L	java:S106<"+Replace this use of System.out by a logger.(„õèÇüÿÿÿÿ8¿„ñ—ê1
+L	java:S106>"+Replace this use of System.out by a logger.(¹“šøÿÿÿÿ8¿„ñ—ê1
+L	java:S106@"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¿„ñ—ê1
+G	java:S106C"+Replace this use of System.out by a logger.(Ş…Ã”8À„ñ—ê1
+^
+java:S1075R"ARefactor your code to get this URI from a customizable parameter.(¯ËÖØ8Æ„ñ—ê1
+G	java:S106_"+Replace this use of System.out by a logger.(Ü…å¥8È„ñ—ê1
+o
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(›—´ó8Ö„ñ—ê1
+L	java:S106q"+Replace this use of System.out by a logger.(…äùÿÿÿÿÿ8Ù„ñ—ê1
+L	java:S106u"+Replace this use of System.out by a logger.(ˆâ”şÿÿÿÿ8Ù„ñ—ê1
+H	java:S106"+Replace this use of System.out by a logger.(Ü¢À8Û„ñ—ê1
