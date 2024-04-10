@@ -1,14 +1,46 @@
 
+Ê
+java:S1186™"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ä Ïúüÿÿÿÿ8Éœñë1J$c009bb73-23e9-4b79-8f10-ff64a264c7e3
+Ê
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(®î’×üÿÿÿÿ8Éœñë1J$226e0727-91ca-441e-b948-900fb0bd6a29
+Å
+java:S1186£"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÆĞÂ8Éœñë1J$c54d716e-14a8-41b0-b182-0d9cc0261870
+Ê
+java:S1186¨"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö„˜şúÿÿÿÿ8Ëœñë1J$5219c119-db5d-4197-af7f-e907936bf68c
+Ê
+java:S1186­"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•ßçùÿÿÿÿ8Ëœñë1J$60d46daa-d9af-4518-aed7-48b95cfbdcad
 j
-java:S1659""Declare "cols" on a separate line.(é½ËÍûÿÿÿÿ8…ûšõé1J$c4cccb44-2ddb-4a81-9a21-892462ed128b
+java:S1659""Declare "cols" on a separate line.(é½ËÍûÿÿÿÿ8€•‰ñë1J$cc9808eb-536c-4318-bf6f-d9565aaefc6b
 m
-java:S1659	"*Declare "canvasHeight" on a separate line.(»ÿ‘±8…ûšõé1J$dfc53567-ee28-4369-af3f-a6a049d39140
+java:S1659"*Declare "canvasHeight" on a separate line.(»ÿ‘±8•‰ñë1J$2f41540c-d5e0-4c81-83b6-09126de0fc4a
 l
-java:S1659
-")Declare "boardHeight" on a separate line.(“şÀÇ8†ûšõé1J$806fe622-52c1-45ff-b397-c807d4246a22
+java:S1659")Declare "boardHeight" on a separate line.(“şÀÇ8•‰ñë1J$59f64c7a-a794-4fd0-897c-c4f27c38c36a
 k
-java:S1659"(Declare "cellHeight" on a separate line.(ñ¼‰ç8†ûšõé1J$1de989c6-ea92-48ab-b0ba-ee3826cd6a0b
+java:S1659"(Declare "cellHeight" on a separate line.(ñ¼‰ç8•‰ñë1J$0f34b83d-a7c6-4b17-8f81-d1cf982f97ad
 j
-java:S1659""Declare "padY" on a separate line.(¢âÓƒÿÿÿÿÿ8†ûšõé1J$4f06c239-14fa-4720-800d-1cb4200ac56c
+java:S1659""Declare "padY" on a separate line.(¢âÓƒÿÿÿÿÿ8•‰ñë1J$41fb73d7-2c9b-473d-8612-99d10d244238
+o
+java:S1948"'Make "image" transient or serializable.(¢Õ´¯şÿÿÿÿ8‚•‰ñë1J$cb0f24d7-0df6-4889-b267-c7766913aa5b
+n
+java:S1948"+Make "offscreen" transient or serializable.(¿“£¼8‚•‰ñë1J$b76833d2-06ba-4668-9948-5da5985e30c5
+o
+java:S1948"'Make "nodes" transient or serializable.(†âœıÿÿÿÿ8‚•‰ñë1J$c25b8d43-6d17-43f2-b2ed-bf9e6d664678
+~	java:S125<"<This block of commented-out lines of code should be removed.(èªÁ8†•‰ñë1J$29c0f5e3-e149-4fe9-93cb-9900576906ca
+f
+java:S2119r"Save and re-use this "Random".(šŸ«íøÿÿÿÿ8‹•‰ñë1J$c5abfe2f-7d03-414a-9867-1e201ea6143d
+–
+java:S3776™"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(œüï¯8•‰ñë1J$117a6cf4-1f42-4f51-891b-f606e876135a
+m
+java:S1659›"$Declare "oldRow" on a separate line.(ÚÏ«®ıÿÿÿÿ8•‰ñë1J$f17b4d43-fc49-4742-8acf-43e97d5def33
+h
+java:S1659©"$Declare "coordY" on a separate line.(Ì×‹õ8‘•‰ñë1J$b727725e-4343-4145-ab59-d938426e2f5a
+k
+java:S1125¼"'Remove the unnecessary boolean literal.(İŠ“ƒ8‘•‰ñë1J$a9229d9d-958c-4fa8-ae17-95993d8086f2
+„	java:S125Ï"<This block of commented-out lines of code should be removed.(İ€’üÿÿÿÿ8º¤ñë1J$67ebc9b5-19dd-479b-9aeb-45934e1417ba
+„	java:S125è"<This block of commented-out lines of code should be removed.(áì…¬ıÿÿÿÿ8ù’¤ñë1J$fcceb9d4-cdb7-46df-9363-fc4bbb4193ef
+‚
+java:S1117ƒ"9Rename "frame" which hides the field declared at line 13.(º¥É„ùÿÿÿÿ8˜•‰ñë1J$455cf9e3-dd26-436f-bd54-013b1743f808
+
+java:S3252“"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8äœñë1J$557cc7b4-fbef-46b4-b86d-2558d8f4bf9c
 q
-java:S1068")Remove this unused "frame" private field.(ÃÁ¦‡ÿÿÿÿÿ8”ûšõé1J$702e3ef6-3d71-4372-89c7-998cff3d9ab8
+java:S1068")Remove this unused "frame" private field.(ÃÁ¦‡ÿÿÿÿÿ8•‰ñë1J$d73c50b5-3875-44b3-b2db-b01c632e6f23

@@ -11,3 +11,5 @@ Z
 +src/main/java/org/example/ControlPanel.java,7\6\76bc0f4d32889a0b6d77a2d0a8fc3be0a5d848c6
 [
 +src/main/java/org/example/DrawingPanel.java,4\8\48fe78e6c4c4cccad989cf8a0ef1b1c9a2a0c8b5
+S
+#src/main/java/org/example/Node.java,8\f\8f8f6d6d49764f416dc77d0fc1c68fb692c9adeb
