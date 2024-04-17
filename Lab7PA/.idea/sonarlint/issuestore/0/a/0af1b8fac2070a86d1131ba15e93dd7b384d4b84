@@ -1,4 +1,10 @@
 
 ]
-java:S1220""Move this file to a named package.8Ê©Ÿõë1J$7b934eeb-b641-48d3-82b2-f4314467ad06
-r	java:S106"+Replace this use of System.out by a logger.(Ÿ»¤ñüÿÿÿÿ8…¸ì1J$2768eb57-b63a-4b9d-836d-1eaffd744825
+java:S1220""Move this file to a named package.8‹©ÃÚî1J$52f2a5d0-7739-452d-99cd-6d1ef7e1725c
+ 
+java:S4144f"XUpdate this method so that its implementation is not identical to "getScore" on line 36.(©úÌ½ûÿÿÿÿ8¡£íÚî1J$e90a1f14-eb0f-4209-b0e2-08a478e8569d
+¡
+java:S21420"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8À©ÃÚî1J$b4dc2257-a6f3-4994-8dad-b053a31414bc
+r	java:S106D"+Replace this use of System.out by a logger.(Ÿ»¤ñüÿÿÿÿ8Â©ÃÚî1J$09922d8b-9b3f-4297-bf84-13cd9b94b647
+„
+java:S1126^"AReplace this if-then-else statement by a single return statement.(Ë¬êÄ8Ä©ÃÚî1J$88edcff6-6fba-4976-bed0-d753354ae771

@@ -1,8 +1,14 @@
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-class Bag {
+
+public class Bag {
     private final List<Token> tokens;
+
+    public List<Token> getTokens() {
+        return tokens;
+    }
 
     public Bag(int n) {
         tokens = new ArrayList<>();
@@ -13,7 +19,7 @@ class Bag {
         }
     }
 
-    public synchronized Token extractToken() {
+    public synchronized Token extractTokens() {
         if (!tokens.isEmpty()) {
             Random random = new Random();
             int index = random.nextInt(tokens.size());
@@ -21,4 +27,5 @@ class Bag {
         }
         return null;
     }
+
 }

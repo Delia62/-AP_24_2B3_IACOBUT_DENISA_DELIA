@@ -1,23 +1,26 @@
+public class Token {
+    private final int firstNumber;
+    private final int secondNumber;
 
-class Token {
-    private final int first;
-    private final int second;
-
-    public Token(int first, int second) {
-        this.first = first;
-        this.second = second;
+    public Token(int firstNumber, int secondNumber) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
     }
 
-    public int getFirst() {
-        return first;
+    public int getFirstNumber() {
+        return firstNumber;
+
     }
 
-    public int getSecond() {
-        return second;
+    public int getSecondNumber() {
+        return secondNumber;
     }
 
     @Override
     public String toString() {
-        return "(" + first + "," + second + ")";
+        return "Token{" +
+                "firstNumber=" + firstNumber +
+                ", secondNumber=" + secondNumber +
+                '}';
     }
 }
