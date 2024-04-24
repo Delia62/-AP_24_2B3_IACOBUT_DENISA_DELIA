@@ -1,0 +1,25 @@
+package org.example;
+
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+
+import javax.sql.DataSource;
+
+public class Database {
+    private static final String URL = "jdbc:postgresql://localhost:5432/books";
+    private static final String USER = "postgres";
+    private static final String PASSWORD = "master";
+    private static HikariDataSource dataSource;
+
+    static {
+        HikariConfig config = new HikariConfig();
+        config.setJdbcUrl(URL);
+        config.setUsername(USER);
+        config.setPassword(PASSWORD);
+        dataSource = new HikariDataSource(config);
+    }
+
+    public static DataSource getDataSource() {
+        return dataSource;
+    }
+}

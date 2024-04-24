@@ -1,0 +1,15 @@
+
+x
+java:S1141 "5Extract this nested try block into a separate method.(«€μ8•ιΨπ1J$1a5c68ca-02d8-4fb7-9063-818ab80447aa
+x
+java:S1141-"5Extract this nested try block into a separate method.(«€μ8•ιΨπ1J$35115b7b-5404-41e2-b45a-5282fabc96b3
+–
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(―ιο‰ωÿÿÿÿ8Ή†λΨπ1J$aea2d3a7-a17d-407a-87a2-a7d0dca1ced8
+s
+java:S1481"+Remove this unused "author" local variable.(Το•Πώÿÿÿÿ8‘ΓρΨπ1J$b5123878-866f-4a17-8c74-e54124d44369
+„
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Λ£»Μ8“•ιΨπ1J$4e1dfeca-8073-468c-83db-7de54c9d66be
+
+java:S2147:"DCombine this catch with the one at line 56, which has the same body.(ΰγ¨¨ώÿÿÿÿ8±ιλΨπ1J$c81171a1-c2fa-4b82-bb94-7c594257ed3b
+‡
+java:S2147<"DCombine this catch with the one at line 58, which has the same body.(Ι®£8”•ιΨπ1J$305d7dad-cfc0-478b-84bc-7a6def662438

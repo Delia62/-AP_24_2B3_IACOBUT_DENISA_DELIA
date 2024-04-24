@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         int n = 10000;
-        long timeLimit = 10000; // Limita de timp în milisecunde (60000 ms = 60 secunde)
+        long timeLimit = 10000;
 
         Game game = new Game(n, timeLimit);
 
