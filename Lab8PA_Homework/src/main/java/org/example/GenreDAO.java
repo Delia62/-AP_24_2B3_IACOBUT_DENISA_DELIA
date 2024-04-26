@@ -31,7 +31,7 @@ public class GenreDAO {
             }
         }
     }
-    public void importGenre() {
+    public void importGenre() throws SQLException {
         Connection connection = Database.getConnection();
         String csvPath = "C:/Users/Delia/Documents/GitHub/-AP_24_2B3_IACOBUT_DENISA_DELIA/Lab8PA_Homework/src/main/java/org/example/goodreads_books.csv";
         try (CSVReader reader = new CSVReader(new FileReader(csvPath))) {

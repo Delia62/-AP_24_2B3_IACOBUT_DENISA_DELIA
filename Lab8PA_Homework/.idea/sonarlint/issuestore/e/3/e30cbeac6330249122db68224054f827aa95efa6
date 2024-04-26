@@ -1,5 +1,9 @@
 
+‹
+java:S2095-"HUse try-with-resources or close this "Connection" in a "finally" clause.(åÔÉÊ8—‰®Îñ1J$d3849c42-fb2f-4ed8-8876-5125ce44f650
 y
-java:S6437"6Revoke and change this password, as it is compromised.(åÔÉÊ8æÒ—Øğ1J$ca97802a-2897-4343-b525-25aad84dbc1e
-r	java:S106"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8èÒ—Øğ1J$f011ab8c-335b-492c-a8dc-0a4ca2a6b383
-m	java:S106+"+Replace this use of System.err by a logger.(¹ãüó8ó³ö÷ğ1J$f52f19fe-843a-4840-89c5-38317414f2f4
+java:S6437-"6Revoke and change this password, as it is compromised.(åÔÉÊ8§‰®Îñ1J$e706ec2e-5156-499e-8dff-5a64f45df68f
+r	java:S1060"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8©‰®Îñ1J$d0127dc4-5e06-40df-8eca-23a5668d9742
+m	java:S106;"+Replace this use of System.err by a logger.(¹ãüó8ª‰®Îñ1J$b57ba44f-aff1-4fed-a0d0-7a9789c55c7c
+x
+java:S1144)"5Remove this unused private "createConnection" method.(¡ûËˆ8¬‰®Îñ1J$f4d7bc0b-912d-4d89-9e6e-07b43b781447

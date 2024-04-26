@@ -11,12 +11,12 @@ import java.util.List;
 
 public class BookDAO {
 
-    public void create(int id, int an, String title, String author, String genre) throws SQLException {
+    public void create(int id, int year, String title, String author, String genre) throws SQLException {
         String query = "INSERT INTO books (id, an, title, author, genre) VALUES (?, ?, ?, ?, ?)";
-        Connection connection = Database.getConnection();
-        try (PreparedStatement statement = connection.prepareStatement(query)) {
+        try (Connection connection = Database.getConnection();
+             PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setInt(1, id);
-            statement.setInt(2, an);
+            statement.setInt(2, year);
             statement.setString(3, title);
             statement.setString(4, author);
             statement.setString(5, genre);
@@ -59,7 +59,7 @@ public class BookDAO {
         }
         return books;
     }
-    public void importBook() {
+    public void importBook() throws SQLException {
         Connection connection = Database.getConnection();
         String csvPath = "C:/Users/Delia/Documents/GitHub/-AP_24_2B3_IACOBUT_DENISA_DELIA/Lab8PA_Homework/src/main/java/org/example/goodreads_books.csv";
         try (CSVReader reader = new CSVReader(new FileReader(csvPath))) {

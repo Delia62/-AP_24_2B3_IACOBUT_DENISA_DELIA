@@ -4,16 +4,16 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String args[]) throws SQLException {
         try {
             var authors = new AuthorDAO();
-            authors.create(68,"William Shakespeare");
-            authors.create(78,"Douglas Adams");
-            Database.getConnection().commit();
+          //  authors.create(68,"William Shakespeare");
+            //authors.create(78,"Douglas Adams");
+            //Database.getConnection().commit();
 
-            var genres = new GenreDAO();
-            genres.create("Tragedy");
-            Database.getConnection().commit();
+            //var genres = new GenreDAO();
+            //genres.create("Tragedy");
+           // Database.getConnection().commit();
 
             List<Author> allAuthors = authors.findAll();
 
@@ -26,10 +26,10 @@ public class Main {
 
             var books = new BookDAO();
 
-            books.create(803865,1597,"Romeo and Juliet","William Shakespeare","Tragedy");
-            books.create(95600,1979,"The Hitchhiker's Guide to the Galaxy",
-                    "Douglas Adams", "Science fiction, Comedy, Adventure");
-            Database.getConnection().commit();
+            //books.create(803865,1597,"Romeo and Juliet","William Shakespeare","Tragedy");
+            //books.create(95600,1979,"The Hitchhiker's Guide to the Galaxy",
+                    //"Douglas Adams", "Science fiction, Comedy, Adventure");
+            //Database.getConnection().commit();
 
             List<Book> allBooks = books.findAll();
             for (Book book : allBooks) {
@@ -43,7 +43,7 @@ public class Main {
             Database.getConnection().close();
         } catch (SQLException e) {
             System.err.println(e);
-            //Database.rollback();
+            Database.rollback(Database.getConnection());
         }
     }
 }

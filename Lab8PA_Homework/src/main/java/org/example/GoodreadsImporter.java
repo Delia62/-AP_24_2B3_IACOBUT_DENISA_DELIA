@@ -16,10 +16,12 @@ public class GoodreadsImporter {
 
 
     public void importData() throws FileNotFoundException {
-        Connection connection = Database.getConnection();
-        var author = new AuthorDAO();
+        Connection connection = null;
         String csvPath = "C:/Users/Delia/Documents/GitHub/-AP_24_2B3_IACOBUT_DENISA_DELIA/Lab8PA_Homework/src/main/java/org/example/goodreads_books.csv";
-        try (CSVReader reader = new CSVReader(new FileReader(csvPath))) {
+        try (CSVReader reader = new CSVReader(new FileReader(csvPath));
+        ) {
+            connection = Database.getConnection();
+            connection.setAutoCommit(false);
             String[] csvLine;
             csvLine = reader.readNext();
             for (int i = 1; i < 246; i++) {

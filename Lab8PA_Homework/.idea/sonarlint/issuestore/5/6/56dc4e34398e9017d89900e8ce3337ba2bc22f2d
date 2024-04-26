@@ -1,0 +1,10 @@
+
+K
+java:S1141K"5Extract this nested try block into a separate method.(«€ì
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š²âßøÿÿÿÿ
+Ò
+java:S1598"¶This file "BookDAO.java" should be located in "org\example" directory, not in "C:\Users\Delia\Documents\GitHub\-AP_24_2B3_IACOBUT_DENISA_DELIA\Lab8PA_Homework\src\main\java\org\DAO".(ŠË˜‰ÿÿÿÿÿ
+W
+java:S1075@"ARefactor your code to get this URI from a customizable parameter.(Ë£»Ì
+Z
+java:S2147Z"DCombine this catch with the one at line 88, which has the same body.(ï­£Ä

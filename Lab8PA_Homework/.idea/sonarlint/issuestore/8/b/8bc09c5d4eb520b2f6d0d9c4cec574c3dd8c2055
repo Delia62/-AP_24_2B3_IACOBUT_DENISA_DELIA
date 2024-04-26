@@ -1,15 +1,13 @@
 
 x
-java:S1141 "5Extract this nested try block into a separate method.(«€ì8Œ•éØğ1J$1a5c68ca-02d8-4fb7-9063-818ab80447aa
+java:S1141""5Extract this nested try block into a separate method.(«€ì8È€ªÎñ1J$2789fbf2-2019-4ae6-ae09-0f4872a69f89
 x
-java:S1141-"5Extract this nested try block into a separate method.(«€ì8Œ•éØğ1J$35115b7b-5404-41e2-b45a-5282fabc96b3
+java:S1141/"5Extract this nested try block into a separate method.(«€ì8Í€ªÎñ1J$933fbbf2-cab3-4bc3-a704-1d8190061913
 –
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(¯éï‰ùÿÿÿÿ8¹†ëØğ1J$aea2d3a7-a17d-407a-87a2-a7d0dca1ced8
-s
-java:S1481"+Remove this unused "author" local variable.(Ôï•Ğşÿÿÿÿ8‘ÃñØğ1J$b5123878-866f-4a17-8c74-e54124d44369
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(¯éï‰ùÿÿÿÿ8Ğ€ªÎñ1J$e721d530-ce59-4367-8849-8d343a221eff
 „
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ë£»Ì8“•éØğ1J$4e1dfeca-8073-468c-83db-7de54c9d66be
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ë£»Ì8ğ€ªÎñ1J$52149a71-c4ae-4726-b5ca-a5a7efb89b47
 Œ
-java:S2147:"DCombine this catch with the one at line 56, which has the same body.(àã¨¨şÿÿÿÿ8±éëØğ1J$c81171a1-c2fa-4b82-bb94-7c594257ed3b
+java:S2147<"DCombine this catch with the one at line 58, which has the same body.(àã¨¨şÿÿÿÿ8ñ€ªÎñ1J$150868f4-b70a-4f7e-8fba-526ab7fec7be
 ‡
-java:S2147<"DCombine this catch with the one at line 58, which has the same body.(É®£8”•éØğ1J$305d7dad-cfc0-478b-84bc-7a6def662438
+java:S2147>"DCombine this catch with the one at line 60, which has the same body.(É®£8ò€ªÎñ1J$7b966de4-e226-49f4-bc72-9aae3dbdc963

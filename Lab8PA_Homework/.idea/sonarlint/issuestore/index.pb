@@ -19,3 +19,9 @@ W
 0src/main/java/org/example/GoodreadsImporter.java,8\b\8bc09c5d4eb520b2f6d0d9c4cec574c3dd8c2055
 T
 $src/main/java/org/example/Genre.java,3\c\3cd77803bbccd402739c62b4f6250aa46b48449a
+T
+$src/main/java/org/DAO/AuthorDAO.java,5\a\5a085f8396c3a1da2906aeeb7eb1d05814517271
+R
+"src/main/java/org/DAO/BookDAO.java,5\6\56dc4e34398e9017d89900e8ce3337ba2bc22f2d
+S
+#src/main/java/org/DAO/GenreDAO.java,1\b\1beed78dd40cb0f267252e70b83e3d7c41bfb448

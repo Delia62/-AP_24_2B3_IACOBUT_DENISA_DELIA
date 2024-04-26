@@ -15,15 +15,16 @@ public class AuthorDAO {
     public int id = 0;
 
 
-    public void create(int id_author, String name_author) throws SQLException {
+    public void create(int id, String name) throws SQLException {
         String query = "INSERT INTO authors (id, name) VALUES (?, ?)";
-        Connection connection = Database.getConnection();
-        try (PreparedStatement pstmt = connection.prepareStatement(query)) {
-            pstmt.setInt(1, id_author);
-            pstmt.setString(2, name_author);
+        try (Connection connection = Database.getConnection();
+             PreparedStatement pstmt = connection.prepareStatement(query)) {
+            pstmt.setInt(1, id);
+            pstmt.setString(2, name);
             pstmt.executeUpdate();
         }
     }
+
 
     public Author findById(int id_author) throws SQLException {
         String query = "SELECT * FROM authors WHERE id = ?";
@@ -51,7 +52,7 @@ public class AuthorDAO {
             }
         }
     }
-    public void importAuthor() {
+    public void importAuthor() throws SQLException {
         Connection connection = Database.getConnection();
         String csvPath = "C:/Users/Delia/Documents/GitHub/-AP_24_2B3_IACOBUT_DENISA_DELIA/Lab8PA_Homework/src/main/java/org/example/goodreads_books.csv";
         try (CSVReader reader = new CSVReader(new FileReader(csvPath))) {
