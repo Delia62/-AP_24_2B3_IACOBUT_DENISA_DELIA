@@ -1,14 +1,0 @@
-
-K
-java:S1141@"5Extract this nested try block into a separate method.(«€ì
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÁ³–ıÿÿÿÿ
-i
-java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(¯éï‰ùÿÿÿÿ
-Ô
-java:S1598"¸This file "AuthorDAO.java" should be located in "org\example" directory, not in "C:\Users\Delia\Documents\GitHub\-AP_24_2B3_IACOBUT_DENISA_DELIA\Lab8PA_Homework\src\main\java\org\DAO".(ŠË˜‰ÿÿÿÿÿ
-W
-java:S10759"ARefactor your code to get this URI from a customizable parameter.(Ë£»Ì
-Z
-java:S2147K"DCombine this catch with the one at line 73, which has the same body.(ï­£Ä
-_
-java:S2147M"DCombine this catch with the one at line 75, which has the same body.(àã¨¨şÿÿÿÿ
