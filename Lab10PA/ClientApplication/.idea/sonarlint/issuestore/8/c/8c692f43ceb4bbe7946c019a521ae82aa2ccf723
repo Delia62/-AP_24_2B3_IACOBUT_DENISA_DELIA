@@ -1,0 +1,30 @@
+
+s
+java:S1104"QMake board a static final constant or non-public and provide accessors if needed.(€Üì¯ıÿÿÿÿ8÷¼Ç¬ø1
+m
+java:S1104"QMake ships a static final constant or non-public and provide accessors if needed.(ÒØ”8÷¼Ç¬ø1
+6
+java:S1700"Rename field "board"(€Üì¯ıÿÿÿÿ8ú¼Ç¬ø1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Êèæ¬úÿÿÿÿ8‘½Ç¬ø1
+
+java:S1186r"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æìÑº8–½Ç¬ø1
+A
+java:S1659"Declare "H" on a separate line.(‘‡şÿÿÿÿ8—½Ç¬ø1
+C
+java:S1948"'Make "ships" transient or serializable.(ÒØ”8™½Ç¬ø1
+I
+java:S1948"'Make "image" transient or serializable.(¢Õ´¯şÿÿÿÿ8™½Ç¬ø1
+G
+java:S1948"*Make "graphics" transient or serializable.(Õ©ÀÔ8™½Ç¬ø1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‘‡şÿÿÿÿ8½Ç¬ø1
+g
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Êèæ¬úÿÿÿÿ8½Ç¬ø1
+c
+java:S1126"AReplace this if-then-else statement by a single return statement.(Á“Õäüÿÿÿÿ8 ½Ç¬ø1
+:
+java:S2119."Save and re-use this "Random".(¼İÅf8¥½Ç¬ø1
+g
+java:S1124N"EReorder the modifiers to comply with the Java Language Specification.(Š„ãÍÿÿÿÿÿ8ª½Ç¬ø1
+E
+java:S1659Z"#Declare "coord" on a separate line.(®£¼†ıÿÿÿÿ8«½Ç¬ø1

@@ -1,0 +1,6 @@
+
+p
+java:S1104
+"TMake gameList a static final constant or non-public and provide accessors if needed.(§½ü8Ýÿ¶¬ø1
+G	java:S106"+Replace this use of System.out by a logger.(µ¿ç‚8çÿ¶¬ø1
+G	java:S106"+Replace this use of System.err by a logger.(”ªÔ¨8èÿ¶¬ø1

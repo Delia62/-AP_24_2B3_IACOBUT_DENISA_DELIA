@@ -1,0 +1,47 @@
+
+h
+java:S1192F"FDefine a constant instead of duplicating this literal "Arial" 3 times.(àìšüøÿÿÿÿ8È¹Ç¬ø1
+l
+java:S1192B"JDefine a constant instead of duplicating this literal "Game Over" 3 times.(º¥É„ùÿÿÿÿ8É¹Ç¬ø1
+X
+java:S1141ˆ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ì¹Ç¬ø1
+f
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(¿‰¬ìùÿÿÿÿ8¦¼Ç¬ø1
+k	java:S116"ORename this field "PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÎÂŞ8¨¼Ç¬ø1
+C
+java:S1170"!Make this final field static too.(”˜‚¬ıÿÿÿÿ8ª¼Ç¬ø1
+>
+java:S1170"!Make this final field static too.(ŸÎÂŞ8«¼Ç¬ø1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(“–ış8¸¼Ç¬ø1
+H
+java:S1659"&Declare "response" on a separate line.(Á±’¤şÿÿÿÿ8¼¼Ç¬ø1
+L	java:S1060"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ã¼Ç¬ø1
+G	java:S1061"+Replace this use of System.out by a logger.(ÚÂâ8Ä¼Ç¬ø1
+L
+java:S1197;"*Move the array designators [] to the type.(˜ôÃüÿÿÿÿ8È¼Ç¬ø1
+[
+java:S1117B"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ë¼Ç¬ø1
+f
+java:S3252J"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Ğ¼Ç¬ø1
+[
+java:S1117R"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ñ¼Ç¬ø1
+f
+java:S3252Z"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Ò¼Ç¬ø1
+G	java:S106_"+Replace this use of System.out by a logger.(Øõù…8Ò¼Ç¬ø1
+G	java:S106a"+Replace this use of System.out by a logger.(ıò±ò8Ó¼Ç¬ø1
+L	java:S106j"+Replace this use of System.out by a logger.(¨ã‰ïùÿÿÿÿ8Ó¼Ç¬ø1
+]	java:S125n"<This block of commented-out lines of code should be removed.(Œú‹Ğúÿÿÿÿ8×¼Ç¬ø1
+L	java:S106s"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ø¼Ç¬ø1
+G	java:S106t"+Replace this use of System.out by a logger.(ÚÂâ8Ø¼Ç¬ø1
+[
+java:S1117{"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ù¼Ç¬ø1
+X	java:S125x"<This block of commented-out lines of code should be removed.(æ¸ï‰8Ù¼Ç¬ø1
+g
+java:S3252ƒ"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Û¼Ç¬ø1
+M	java:S106‹"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8Û¼Ç¬ø1
+w
+java:S1128
+"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8†àƒ¬ø1J$91404f7b-da6e-4881-8f9c-b7a0769e36ef
+ä
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 104 to 64, Complexity from 17 to 14, Nesting Level from 6 to 2, Number of Variables from 18 to 6.(“–ış8±½Ç¬ø1
