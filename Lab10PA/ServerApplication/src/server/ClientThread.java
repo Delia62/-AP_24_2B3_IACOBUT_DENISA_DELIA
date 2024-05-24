@@ -164,13 +164,14 @@ public class ClientThread extends Thread{
                                             }
 
                                             System.out.println("1");
+                                            game.setTurn(playerNr % 2 + 1);
                                         }
                                         else if(request.substring(0,4).equals("Miss")){
-
+                                            game.setTurn(playerNr % 2 + 1);
 
                                         }
 
-                                        game.setTurn(playerNr % 2 + 1);
+
                                         end = System.currentTimeMillis()+ 60 * 1000;
                                     } else
                                         response = "Position is already taken or is out of bounds";

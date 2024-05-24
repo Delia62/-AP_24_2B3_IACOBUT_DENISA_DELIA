@@ -1,47 +1,47 @@
 
-h
-java:S1192F"FDefine a constant instead of duplicating this literal "Arial" 3 times.(àìšüøÿÿÿÿ8È¹Ç¬ø1
-l
-java:S1192B"JDefine a constant instead of duplicating this literal "Game Over" 3 times.(º¥É„ùÿÿÿÿ8É¹Ç¬ø1
-X
-java:S1141ˆ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ì¹Ç¬ø1
-f
-java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(¿‰¬ìùÿÿÿÿ8¦¼Ç¬ø1
-k	java:S116"ORename this field "PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÎÂŞ8¨¼Ç¬ø1
-C
-java:S1170"!Make this final field static too.(”˜‚¬ıÿÿÿÿ8ª¼Ç¬ø1
->
-java:S1170"!Make this final field static too.(ŸÎÂŞ8«¼Ç¬ø1
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(“–ış8¸¼Ç¬ø1
-H
-java:S1659"&Declare "response" on a separate line.(Á±’¤şÿÿÿÿ8¼¼Ç¬ø1
-L	java:S1060"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ã¼Ç¬ø1
-G	java:S1061"+Replace this use of System.out by a logger.(ÚÂâ8Ä¼Ç¬ø1
-L
-java:S1197;"*Move the array designators [] to the type.(˜ôÃüÿÿÿÿ8È¼Ç¬ø1
-[
-java:S1117B"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ë¼Ç¬ø1
-f
-java:S3252J"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Ğ¼Ç¬ø1
-[
-java:S1117R"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ñ¼Ç¬ø1
-f
-java:S3252Z"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Ò¼Ç¬ø1
-G	java:S106_"+Replace this use of System.out by a logger.(Øõù…8Ò¼Ç¬ø1
-G	java:S106a"+Replace this use of System.out by a logger.(ıò±ò8Ó¼Ç¬ø1
-L	java:S106j"+Replace this use of System.out by a logger.(¨ã‰ïùÿÿÿÿ8Ó¼Ç¬ø1
-]	java:S125n"<This block of commented-out lines of code should be removed.(Œú‹Ğúÿÿÿÿ8×¼Ç¬ø1
-L	java:S106s"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ø¼Ç¬ø1
-G	java:S106t"+Replace this use of System.out by a logger.(ÚÂâ8Ø¼Ç¬ø1
-[
-java:S1117{"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ù¼Ç¬ø1
-X	java:S125x"<This block of commented-out lines of code should be removed.(æ¸ï‰8Ù¼Ç¬ø1
-g
-java:S3252ƒ"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Û¼Ç¬ø1
-M	java:S106‹"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8Û¼Ç¬ø1
+
+java:S1192F"FDefine a constant instead of duplicating this literal "Arial" 3 times.(àìšüøÿÿÿÿ8È¹Ç¬ø1J$97a06d24-f2f3-4b7a-ba92-402bd6a1b654
+’
+java:S1192B"JDefine a constant instead of duplicating this literal "Game Over" 3 times.(º¥É„ùÿÿÿÿ8É¹Ç¬ø1J$fc9809c5-68b7-4459-ad9f-2746b025e8ef
+~
+java:S1141ˆ"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Ì¹Ç¬ø1J$c5582676-c373-4ee5-a66f-b45f35361441
+Œ
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(¿‰¬ìùÿÿÿÿ8¦¼Ç¬ø1J$9e8e4bc8-0601-47b8-aa06-d6629ae6283e
+‘	java:S116"ORename this field "PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÎÂŞ8¨¼Ç¬ø1J$bd7d7f56-6784-4789-8b58-651bd7cf159f
+i
+java:S1170"!Make this final field static too.(”˜‚¬ıÿÿÿÿ8ª¼Ç¬ø1J$a01d5c9e-0885-4295-aeff-0d6cb14cfa0e
+d
+java:S1170"!Make this final field static too.(ŸÎÂŞ8«¼Ç¬ø1J$e5e20b09-0c57-4b2b-8063-a9ac60772cfe
+•
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(“–ış8¸¼Ç¬ø1J$0ff29610-2901-47f6-978a-82cb7ebc4454
+n
+java:S1659"&Declare "response" on a separate line.(Á±’¤şÿÿÿÿ8¼¼Ç¬ø1J$ae9aaec7-0b78-44a4-8b27-4292338e6bce
+r	java:S1060"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ã¼Ç¬ø1J$da140b00-9f63-41db-941a-94be172199d6
+m	java:S1061"+Replace this use of System.out by a logger.(ÚÂâ8Ä¼Ç¬ø1J$a666ad57-ae3c-4edf-b3dc-3b0bf4d11376
+r
+java:S1197;"*Move the array designators [] to the type.(˜ôÃüÿÿÿÿ8È¼Ç¬ø1J$a90fb83a-a132-4c92-bf9d-60197419daae
+
+java:S1117B"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ë¼Ç¬ø1J$2e3733e9-db0b-4e32-b461-4d244e4ec16a
+Œ
+java:S3252J"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Ğ¼Ç¬ø1J$39545c02-d80e-4563-9169-922a7d67df8e
+
+java:S1117R"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ñ¼Ç¬ø1J$32464828-37e5-4189-a15c-4c098fd74299
+Œ
+java:S3252Z"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Ò¼Ç¬ø1J$bce6c20f-39a9-4365-a7c2-976e4887e102
+]	java:S125_"<This block of commented-out lines of code should be removed.(÷İ‡ˆûÿÿÿÿ8…–Àøù1
+X	java:S125a"<This block of commented-out lines of code should be removed.(ù“‚È8…–Àøù1
+]	java:S125j"<This block of commented-out lines of code should be removed.(ŸÉ¹øÿÿÿÿ8…–Àøù1
+ƒ	java:S125n"<This block of commented-out lines of code should be removed.(Œú‹Ğúÿÿÿÿ8×¼Ç¬ø1J$8445576d-c69e-4eac-a070-a30982fd0ea1
+r	java:S106s"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ8Ø¼Ç¬ø1J$ddcaf4fc-c53c-485e-984a-f2e0b3166182
+m	java:S106t"+Replace this use of System.out by a logger.(ÚÂâ8Ø¼Ç¬ø1J$3f4c8e79-aae7-47ae-bba6-98cc2649803a
+
+java:S1117{"9Rename "frame" which hides the field declared at line 18.(º¥É„ùÿÿÿÿ8Ù¼Ç¬ø1J$ce541bcb-819d-4644-bd4b-02ca5ea5be9c
+~	java:S125x"<This block of commented-out lines of code should be removed.(æ¸ï‰8Ù¼Ç¬ø1J$62749ba7-4d72-4f94-bfa5-295cc7ac3ba8
+
+java:S3252ƒ"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(¢¡´8Û¼Ç¬ø1J$bbb25a61-0b6a-43cd-b7b0-4a622ec91134
+s	java:S106‹"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8Û¼Ç¬ø1J$e007a320-aeeb-4ee2-aacf-3be5bd9f0f63
 w
 java:S1128
-"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8†àƒ¬ø1J$91404f7b-da6e-4881-8f9c-b7a0769e36ef
-ä
-java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 104 to 64, Complexity from 17 to 14, Nesting Level from 6 to 2, Number of Variables from 18 to 6.(“–ış8±½Ç¬ø1
+"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8†àƒ¬ø1J$9911d8d0-5a8e-44ce-b234-d5cded3fbaf5
+Š
+java:S6541"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 101 to 64, Complexity from 17 to 14, Nesting Level from 6 to 2, Number of Variables from 18 to 6.(“–ış8±½Ç¬ø1J$cf66350c-4fb4-41cb-996a-b8c221aabf16

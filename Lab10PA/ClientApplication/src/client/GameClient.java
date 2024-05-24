@@ -92,9 +92,9 @@ public class GameClient extends Thread{
                                 running = false;
                             }
                         }
-                        System.out.println("INAINTE DE COLORAREEEE");
+                        //System.out.println("INAINTE DE COLORAREEEE");
                         frame.board.place(line, column,Color.green);
-                        System.out.println("HITTT");
+                        //System.out.println("HITTT");
                         response = "Hit "+playerNr;
                         out.println(response);
                         out.flush();
@@ -103,7 +103,7 @@ public class GameClient extends Thread{
                     else{
                         response = "Miss ";
                         out.println(response);
-                        System.out.println("YOU MISSSSSS, HEEHEEE");
+                       // System.out.println("YOU MISSSSSS, HEEHEEE");
                         Color color = new Color(Integer.parseInt(parts[1]));
                         frame.board.place(line, column, color);
                         response = "You miss! Waiting for the other player's move..";

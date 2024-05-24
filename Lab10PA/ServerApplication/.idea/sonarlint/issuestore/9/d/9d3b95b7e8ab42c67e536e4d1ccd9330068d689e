@@ -1,6 +1,8 @@
 
-p
+–
 java:S1104
-"TMake gameList a static final constant or non-public and provide accessors if needed.(§½ü8Ýÿ¶¬ø1
-G	java:S106"+Replace this use of System.out by a logger.(µ¿ç‚8çÿ¶¬ø1
-G	java:S106"+Replace this use of System.err by a logger.(”ªÔ¨8èÿ¶¬ø1
+"TMake gameList a static final constant or non-public and provide accessors if needed.(§½ü8Ýÿ¶¬ø1J$65c36fdb-5b24-4a54-a4b6-1b84318350b6
+j
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8¹Ý øù1J$d1b87115-b98a-4d71-be81-39997b696724
+m	java:S106"+Replace this use of System.out by a logger.(µ¿ç‚8çÿ¶¬ø1J$7df4decf-ad1f-4263-b68f-79a3b05e1e4e
+m	java:S106"+Replace this use of System.err by a logger.(”ªÔ¨8èÿ¶¬ø1J$179d4c5c-682c-48a3-9f52-7f1c9f79cc6a

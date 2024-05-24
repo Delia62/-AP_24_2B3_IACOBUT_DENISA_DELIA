@@ -1,39 +1,42 @@
 
-h
-java:S1192:"FDefine a constant instead of duplicating this literal " won!" 4 times.(—‰¼øÿÿÿÿ8°Ï·¬ø1
+
+java:S1192:"FDefine a constant instead of duplicating this literal " won!" 4 times.(—‰¼øÿÿÿÿ8°Ï·¬ø1J$ba7dedc5-4b3b-42a1-9317-a79561af2a7b
+›
+java:S1192:"SDefine a constant instead of duplicating this literal "Time's up, Player " 4 times.(—‰¼øÿÿÿÿ8±Ï·¬ø1J$4f5d88e4-49a7-4d02-9ddb-128e1bc22d7a
+—
+java:S1192:"ODefine a constant instead of duplicating this literal " lose! Player " 4 times.(—‰¼øÿÿÿÿ8±Ï·¬ø1J$5ee49c61-8e79-472c-be7c-342857937b0a
+}
+java:S1141T"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8²Ï·¬ø1J$3a6f8ade-5a2b-402c-a459-646a18b7825b
+~
+java:S1141Í"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8²Ï·¬ø1J$5cc293ae-91e3-4f1b-888b-38b424b73d69
+¢
+java:S1104"ZMake attackedShips1 a static final constant or non-public and provide accessors if needed.(Í²…îûÿÿÿÿ8³Ï·¬ø1J$6781042e-1d0c-48b6-846b-34b582cc8833
+
+java:S1104"ZMake attackedShips2 a static final constant or non-public and provide accessors if needed.(õõªÛ8³Ï·¬ø1J$a7417d8d-ac9d-421e-a046-30a9919ddca8
+Ğ
+java:S2681²"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(Æ ¸·úÿÿÿÿ8·Ï·¬ø1J$15298928-83f8-447e-a917-867d97095015
+†
+java:S2259–"BA "NullPointerException" could be thrown; "game" is nullable here.(ÏÓ¦8ªÛ øù1J$0d42e51f-40ea-42ba-9c7d-9cf5d1556ac4
 u
-java:S1192:"SDefine a constant instead of duplicating this literal "Time's up, Player " 4 times.(—‰¼øÿÿÿÿ8±Ï·¬ø1
-q
-java:S1192:"ODefine a constant instead of duplicating this literal " lose! Player " 4 times.(—‰¼øÿÿÿÿ8±Ï·¬ø1
-W
-java:S1141T"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8²Ï·¬ø1
-X
-java:S1141Ì"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8²Ï·¬ø1
-|
-java:S1104"ZMake attackedShips1 a static final constant or non-public and provide accessors if needed.(Í²…îûÿÿÿÿ8³Ï·¬ø1
+java:S6881U"2Use virtual threads for heavy blocking operations.(ˆ¨öµ8ÔÏ·¬ø1J$9bcce350-7e51-41f3-a650-beeb4cb79f14
+–
+java:S37760"SRefactor this method to reduce its Cognitive Complexity from 118 to the 15 allowed.(“–ış8ÕÏ·¬ø1J$fd62e50c-99b4-4934-bc2f-b08f503e59dc
+n
+java:S16593"&Declare "response" on a separate line.(Á±’¤şÿÿÿÿ8ØÏ·¬ø1J$3a5884f1-b462-41a1-b808-3a11d3862da6
+„
+java:S11173"<Rename "response" which hides the field declared at line 22.(Á±’¤şÿÿÿÿ8ãÏ·¬ø1J$431d0366-8d6e-4c27-b9ad-a841a682ae94
+m	java:S1065"+Replace this use of System.out by a logger.(Ñ“úš8åÏ·¬ø1J$ece12f7d-9b8f-474c-837b-58b0f7a957df
+r	java:S1067"+Replace this use of System.out by a logger.(áëÜùşÿÿÿÿ8æÏ·¬ø1J$f0dba11a-812f-4f42-b61f-48ed6b62ca77
+m	java:S106="+Replace this use of System.out by a logger.(¥Ñ›Ö8æÏ·¬ø1J$5b8f04c3-90b4-4a98-a189-637e530f076e
+m	java:S106B"+Replace this use of System.out by a logger.(†îêı8çÏ·¬ø1J$f140a400-e1d9-46fa-b706-677236396720
+¦
+java:S2142V"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ8òÏ·¬ø1J$9a58dddf-669b-42c4-99aa-580441cbb4e6
+r	java:S106}"+Replace this use of System.out by a logger.(ÇŞ£®şÿÿÿÿ8õÏ·¬ø1J$d0d013a7-80e2-4559-87ef-e5b8e5b07efc
+n	java:S106’"+Replace this use of System.out by a logger.(ÚÂâ8öÏ·¬ø1J$c12090c3-ce3e-48ad-b06c-7ff2fb47f831
+m	java:S106¦"+Replace this use of System.out by a logger.(¸ØïU8‚Ğ·¬ø1J$464b6de6-cde4-468b-9987-c426c216fe31
+s	java:S106Ğ"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8†Ğ·¬ø1J$7fe08f99-d4ac-4db5-be9b-6df9f4046da8
+n	java:S106Ó"+Replace this use of System.err by a logger.(ñÒ ¶8†Ğ·¬ø1J$5256d3e8-0a4a-4bb9-8c10-423534f09823
 w
-java:S1104"ZMake attackedShips2 a static final constant or non-public and provide accessors if needed.(õõªÛ8³Ï·¬ø1
-ª
-java:S2681±"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(Æ ¸·úÿÿÿÿ8·Ï·¬ø1
-O
-java:S6881U"2Use virtual threads for heavy blocking operations.(ˆ¨öµ8ÔÏ·¬ø1
-p
-java:S37760"SRefactor this method to reduce its Cognitive Complexity from 118 to the 15 allowed.(“–ış8ÕÏ·¬ø1
-H
-java:S16593"&Declare "response" on a separate line.(Á±’¤şÿÿÿÿ8ØÏ·¬ø1
-^
-java:S11173"<Rename "response" which hides the field declared at line 22.(Á±’¤şÿÿÿÿ8ãÏ·¬ø1
-G	java:S1065"+Replace this use of System.out by a logger.(Ñ“úš8åÏ·¬ø1
-L	java:S1067"+Replace this use of System.out by a logger.(áëÜùşÿÿÿÿ8æÏ·¬ø1
-G	java:S106="+Replace this use of System.out by a logger.(¥Ñ›Ö8æÏ·¬ø1
-G	java:S106B"+Replace this use of System.out by a logger.(†îêı8çÏ·¬ø1
-€
-java:S2142V"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ8òÏ·¬ø1
-L	java:S106}"+Replace this use of System.out by a logger.(ÇŞ£®şÿÿÿÿ8õÏ·¬ø1
-H	java:S106’"+Replace this use of System.out by a logger.(ÚÂâ8öÏ·¬ø1
-G	java:S106¦"+Replace this use of System.out by a logger.(¸ØïU8‚Ğ·¬ø1
-K	java:S108¨")Either remove or fill this block of code.(Ï»ñšúÿÿÿÿ8„Ğ·¬ø1
-M	java:S106Ï"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8†Ğ·¬ø1
-H	java:S106Ò"+Replace this use of System.err by a logger.(ñÒ ¶8†Ğ·¬ø1
-ã
-java:S65410"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 151 to 64, Complexity from 27 to 14, Nesting Level from 9 to 2, Number of Variables from 8 to 6.(“–ış8’Ğ·¬ø1
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8šÜ øù1J$1731c38a-09d2-4ebe-9cd2-b7644cad6361
+‰
+java:S65410"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 152 to 64, Complexity from 27 to 14, Nesting Level from 9 to 2, Number of Variables from 8 to 6.(“–ış8’Ğ·¬ø1J$d9cc6066-9934-4fd9-be17-7dbe03b6a75e

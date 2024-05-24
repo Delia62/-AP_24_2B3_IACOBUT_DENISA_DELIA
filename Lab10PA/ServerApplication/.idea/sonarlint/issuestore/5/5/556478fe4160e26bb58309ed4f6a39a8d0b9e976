@@ -1,9 +1,7 @@
 
-\
-java:S1854":Remove this useless assignment to local variable "server".(Ëß½¸ûÿÿÿÿ8²÷µ¬ø1
-L
-java:S2440"*Remove this instantiation of "GameServer".(Ëß½¸ûÿÿÿÿ8À÷µ¬ø1
-M
-java:S1481"+Remove this unused "server" local variable.(Ëß½¸ûÿÿÿÿ8Á÷µ¬ø1
-L	java:S106
-"+Replace this use of System.err by a logger.(Þàš¬øÿÿÿÿ8Â÷µ¬ø1
+‚
+java:S1854":Remove this useless assignment to local variable "server".(Ëß½¸ûÿÿÿÿ8²÷µ¬ø1J$c7c72f1f-57e5-4d16-a586-e228ec04ab74
+s
+java:S1481"+Remove this unused "server" local variable.(Ëß½¸ûÿÿÿÿ8Á÷µ¬ø1J$a512904a-00c4-443e-99fa-4ec09e4db0d3
+r	java:S106
+"+Replace this use of System.err by a logger.(Þàš¬øÿÿÿÿ8Â÷µ¬ø1J$7f8a4911-a888-40e1-8150-f8365e56f661
