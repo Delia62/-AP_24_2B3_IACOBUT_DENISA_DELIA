@@ -1,0 +1,17 @@
+
+w
+java:S3740"/Provide the parametrized type for this generic.(ß¹æÿÿÿÿÿÿ8 ùœËû1J$8a5a8ebc-4b96-44d4-86a9-6b082583e258
+
+java:S2095"KUse try-with-resources or close this "MyClassLoader" in a "finally" clause.(¿¦”Ö8ºö¤Ëû1J$2adf803e-2054-4d4c-b211-a4eb5c6b8593
+Á
+java:S1130"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(ˆæ‰Æıÿÿÿÿ8Çö¤Ëû1J$97dcb584-6eb8-45a3-8969-270a69a0e76e
+l
+java:S1659"$Declare "failed" on a separate line.(²­ùİøÿÿÿÿ8°ùœËû1J$32b0bfeb-922d-4731-be9b-db32f4a214d5
+r	java:S106"+Replace this use of System.out by a logger.(’ˆµ³ıÿÿÿÿ8¼ùœËû1J$a55aeeb7-6c70-4421-b2e2-9018e776509d
+l	java:S106"+Replace this use of System.out by a logger.(ÆÉµK8½ùœËû1J$2e009494-88df-43ea-9728-fcae9058102a
+m	java:S106"+Replace this use of System.out by a logger.(£¶ëÀ8¾ùœËû1J$b70abd2b-e78d-4ff4-b399-b08ca2b47cf9
+r	java:S106"+Replace this use of System.out by a logger.(òç®ÿøÿÿÿÿ8ËÄ¥Ëû1J$8e96c431-2eae-42e5-bd5d-607c4cab76d6
+m
+java:S1181 "%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ8ÂùœËû1J$a8ed993f-3d90-404e-8a87-d7c4f73b35a7
+r	java:S106!"+Replace this use of System.out by a logger.(Ô¬îĞÿÿÿÿÿ8ÄùœËû1J$2976910a-1f8e-4189-8843-d18f74f04fb5
+m	java:S106'"+Replace this use of System.out by a logger.(„ßÊÜ8ÆùœËû1J$e8b8cb27-8809-4536-9e28-d11457a19be0
