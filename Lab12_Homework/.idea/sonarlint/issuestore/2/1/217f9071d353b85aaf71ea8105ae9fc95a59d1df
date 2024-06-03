@@ -1,0 +1,29 @@
+
+†	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$d180caa3-d8c9-45fb-8e0a-d61e529715b0
+k
+java:S3740"/Provide the parametrized type for this generic.(¡ĞÕ’J$f9d734ca-4ef3-47f2-a602-08a211d680d3
+k
+java:S3740"/Provide the parametrized type for this generic.(¡ĞÕ’J$7cfbb2e0-7840-4bf9-ac81-bc0545db7e21
+k
+java:S37403"/Provide the parametrized type for this generic.(ô«‘ÀJ$55c56d58-1978-47df-b674-3d3d75207289
+ˆ
+java:S1192R"GDefine a constant instead of duplicating this literal ".class" 4 times.(·¯ÂÀÿÿÿÿÿJ$1b057e74-3810-4677-a37a-ed16c74d0436
+e
+java:S1659"$Declare "failed" on a separate line.(²­ùİøÿÿÿÿJ$192612ca-993c-4a3b-a658-d6cfec76e8a8
+f
+java:S1181$"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿJ$67137afc-5880-45a8-a1ba-fb05fbbd2b97
+k	java:S106""+Replace this use of System.out by a logger.(Ô·ĞşÿÿÿÿJ$899ad30e-48f1-4106-b7b4-31e7744be2d2
+k	java:S106%"+Replace this use of System.out by a logger.(í©ƒ¤şÿÿÿÿJ$f0c74f87-51df-43b7-abf5-f3f87ef692e7
+k	java:S106,"+Replace this use of System.out by a logger.(¾âî¯ûÿÿÿÿJ$200bdeb1-5a5c-481e-84c3-009f52890539
+Y
+java:S21191"Save and re-use this "Random".(¼İÅfJ$d7ec2845-0b22-45d0-b83d-e184bde048f8
+f	java:S1067"+Replace this use of System.out by a logger.(İ™åéJ$982575a4-1aff-407d-a1a6-8a2dda96ecf0
+f	java:S106;"+Replace this use of System.out by a logger.(õÜ²İJ$73c2c06c-59f4-4eb4-be68-f0d2266ab0fa
+k	java:S106K"+Replace this use of System.err by a logger.(ùÚ‘¢ùÿÿÿÿJ$1e69de6a-06d7-436e-8751-86ce2fdbdaf5
+µ
+java:S1130O"yRemove the declaration of thrown exception 'java.lang.ClassNotFoundException', as it cannot be thrown from method's body.(Ï’Á¸J$21e93934-c5d0-4146-80db-452f9a70291c
+k	java:S106r"+Replace this use of System.out by a logger.(èôÜ¼øÿÿÿÿJ$117575dc-895c-4280-8cd0-c36fe632df1a
+e	java:S106s"+Replace this use of System.out by a logger.(ñ®€.J$8f3b8ce3-835e-47fe-9ecc-5a9b6f9db6a4
+f	java:S106t"+Replace this use of System.out by a logger.(Ê«ƒJ$40dc3b76-fb97-4f86-b4d9-9f18ae3addcf
+L	java:S106w"+Replace this use of System.out by a logger.(½Ó¾Áüÿÿÿÿ8ËÃçı1
+L	java:S106y"+Replace this use of System.out by a logger.(åÕ¹ÿÿÿÿÿ8ÌÃçı1

@@ -1,0 +1,7 @@
+locales
+
+locale.set en-US
+
+info fr-FR
+
+info ro-Ro
