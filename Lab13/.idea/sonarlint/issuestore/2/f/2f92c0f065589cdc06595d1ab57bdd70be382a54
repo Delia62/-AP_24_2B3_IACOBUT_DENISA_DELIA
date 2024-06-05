@@ -1,5 +1,7 @@
 
-@	java:S106"+Replace this use of System.out by a logger.(þ¥Üß
-E	java:S106"+Replace this use of System.out by a logger.(Š°ù¾ùÿÿÿÿ
-E	java:S106!"+Replace this use of System.out by a logger.(Š°ù¾ùÿÿÿÿ
-E	java:S106$"+Replace this use of System.out by a logger.(ƒŒ¼†ùÿÿÿÿ
+j
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8²Ô½¹þ1J$c378795d-ffc1-4f23-8b57-1a6bd57642ef
+f	java:S106"+Replace this use of System.out by a logger.(þ¥ÜßJ$e8545106-0482-4bb3-8a2c-ca16c1a67c1e
+k	java:S106"+Replace this use of System.out by a logger.(Š°ù¾ùÿÿÿÿJ$9b525c61-7e60-4066-8f70-8467647642ce
+k	java:S106!"+Replace this use of System.out by a logger.(Š°ù¾ùÿÿÿÿJ$54c1e56a-e1e3-4d30-8cde-d3cb049341e1
+k	java:S106$"+Replace this use of System.out by a logger.(ƒŒ¼†ùÿÿÿÿJ$837057d2-2652-4862-87ba-a85539e16c68

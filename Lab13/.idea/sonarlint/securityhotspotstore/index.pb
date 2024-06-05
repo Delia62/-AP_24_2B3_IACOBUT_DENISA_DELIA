@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 V
 &src/main/java/comm/DisplayLocales.java,2\5\25f069bf0e537a1dbc7a7558853b1dcb581bc141
 Q
